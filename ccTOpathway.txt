@@ -1,176 +1,1284 @@
 yeast apoptosis
+-----
+	intrinsic apoptotic pathway intrinsic apoptotic signaling pathway intrinsic pathway for apoptosis
 	apoptotic cell death pathway apoptotic process programmed cell death pathway apoptosis
 wg pathway of drosophila signaling pathways
-	c chemokine mediated signaling pathway 
+-----
 virtual chondrocyte - ppi layer
-	endoplasmic reticulum stress  - the unfolded protein response pathway unfolded protein response (upr) endoplasmic reticulum unfolded protein response er stress - upr pathway
+-----
 virtual chondrocyte - grn layer
-	endoplasmic reticulum stress  - the unfolded protein response pathway unfolded protein response (upr) endoplasmic reticulum unfolded protein response er stress - upr pathway
+-----
 vegf pathway of drosophila signaling pathway
-	c chemokine mediated signaling pathway 
+-----
+	altered vascular endothelial growth factor signaling pathway altered vegf signaling pathways
+	altered vascular endothelial growth factor signaling pathway involving proteins affecting its expression altered vegf signaling pathway involving proteins affecting its expression
+	altered vascular endothelial growth factor signaling pathway involving the macromolecules modifying the main players altered vegf signaling pathway involving the macromolecules modifying the main players
+	altered vascular endothelial growth factor signaling pathway involving the main players altered vegf signaling pathway involving the main players
+	vascular endothelial growth factor signaling pathway signaling by vegf vegf signaling pathways vascular endothelial growth factor receptor signaling pathway
 tumour cell invasion and migration
-	necrosis pathway necrotic cell death
-trypanosoma cruzi dm28c
-	sleeping sickness pathway african trypanosomiasis pathway trypanosoma brucei infection pathway african sleeping sickness pathway kegg:05143
+-----
+trichostrongylus retortaeformis
+-----
 treatment of castration-resistant prostate cancer
+-----
+	thyroid cancer pathway malignant tumor of thyroid gland pathway malignant neoplasm of thyroid gland pathway kegg:05216 thyroid neoplasm pathway
+	nervous system and nerve tissue cancer pathway nervous system and nerve tissue neoplasm pathway
+	urinary bladder cancer pathway bladder cancer pathway kegg:05219 bladder neoplasm pathway
+	endocrine gland cancer pathway endocrine gland neoplasm pathway
+	head and neck cancer pathway head and neck neoplasm pathway
+	gastric cancer pathway stomach cancer pathway gastric neoplasm pathway stomach neoplasm pathway
+	ovarian cancer pathway ovarian neoplasm pathway
+	cervical cancer pathway cervical neoplasm pathway
+	liver cancer pathway hepatic cancer pathway liver neoplasm pathway hepatic neoplasm pathway
+	intestinal cancer pathway intestinal neoplasm pathway
+	gastrointestinal cancer pathway gastrointestinal neoplasm pathway
+	lung cancer pathway lung neoplasm pathway
+	small cell lung carcinoma pathway oat cell carcinoma of lung pathway small cell carcinoma of lung pathway small cell lung cancer pathway small cell neuroendocrine carcinoma of lung pathway kegg:05222 sclc pathway small cell lung neoplasm pathway
+	skin cancer pathway skin neoplasm pathway
+	parathyroid cancer pathway 
+	colorectal cancer pathway kegg:05210 colorectal neoplasm pathway
+	respiratory tract cancer pathway respiratory tract neoplasm pathway
+	bone cancer pathway bone neoplasm pathway
+	urogenital cancer pathway urinogenital cancer pathway genitourinary cancer pathway
+	non-small cell lung carcinoma pathway non-small cell lung cancer pathway nsclc pathway kegg:05223 non-small cell lung neoplasm pathway
+	pancreatic cancer pathway malignant neoplasm of pancreas pathway kegg:05212 pancreatic neoplasm pathway
+	renal cell carcinoma pathway hypernephroma pathway renal cell cancer pathway adenocarcinoma of kidney pathway rcc pathway kegg:05211
+	cancer pathway neoplasm pathway
+	digestive system cancer pathway digestive system neoplasm pathway gastrointestinal neoplasm pathway
+	prostate cancer pathway malignant tumor of the prostate pathway familial prostate cancer pathway hereditary prostate cancer pathway prostatic cancer pathway kegg:05215 prostate neoplasm pathway
+	prostate cancer pathway malignant tumor of the prostate pathway familial prostate cancer pathway hereditary prostate cancer pathway prostatic cancer pathway kegg:05215 prostate neoplasm pathway
+	endometrial cancer pathway kegg:05213 endometrial neoplasm pathway
+	thoracic cancer pathway thoracic neoplasm pathway
 	breast cancer pathway breast neoplasm
 toll pathway of drosophila signaling pathway
-	c chemokine mediated signaling pathway 
+-----
 tol regulatory network
+-----
+	altered regulatory pathway 
+	altered regulatory pathway pertinent to the brain 
+	regulatory pathway pertinent to the brain 
+	regulatory pathway 
 	sterol regulatory element-binding protein signaling pathway srebp signaling pathway
+t-lgl survival network 2011 reduced network
+-----
+t-lgl survival network 2011
+-----
+t-lgl survival network 2008
+-----
 t-cell signaling 2006
-	c chemokine mediated signaling pathway 
+-----
 t cell receptor signaling
-	c chemokine mediated signaling pathway 
+-----
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	t cell receptor signaling pathway in cd8+ t cells 
 t cell differentiation
-	necrosis pathway necrotic cell death
+-----
+	synaptic differentiation pathway 
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	postsynaptic differentiation pathway 
+	presynaptic differentiation pathway 
+	t cell receptor signaling pathway in cd8+ t cells 
+stomatal opening model
+-----
 staphylococcus aureus subsp. aureus n315
+-----
+	staphylococcus aureus infection pathway kegg:05150
+	staphylococcus aureus infection pathway kegg:05150
 	staphylococcus aureus infection pathway kegg:05150
 skbr3 breast cell line short-term erbb network
+-----
 	breast cancer pathway breast neoplasm
 skbr3 breast cell line long-term erbb network
+-----
+	long term depression long-term synaptic depression ltd
+	long term potentiation long-term potentiation ltp long-term synaptic potentiation
 	breast cancer pathway breast neoplasm
 signaling pathway for butanol production in clostridium beijerinckii nrrl b-598
-	c chemokine mediated signaling pathway 
+-----
+	intrinsic apoptotic pathway intrinsic apoptotic signaling pathway intrinsic pathway for apoptosis
+	mitochondrial aminoacyl-trna biosynthetic pathway mitochondrial trna aminoacylation trna aminoacylation for mitochondrial protein translation 
+	receptor for advanced glycation end-products signaling pathway rage signaling pathway
+	microrna pathway microrna (mirna) biogenesis production of mirnas involved in gene silencing by mirna mirna pathway
+	transport pathway for the elimination of drugs, endogenous or exogenous compounds and metabolites 
 signaling in macrophage activation
-	c chemokine mediated signaling pathway 
+-----
+	complement system pathway complement activation complement cascade
+	glutamate signaling pathway via ampa receptor ionotropic glutamate receptor signaling pathway glutamate binding, activation of ampa receptors and synaptic plasticity
+	alternative complement pathway alternative complement activation alternative pathway complement activation, alternative pathway
+	extrinsic apoptotic pathway extrinsic apoptotic signaling pathway caspase activation via extrinsic apoptotic signalling pathway death receptor mediated apoptotic pathway
+	glutamate signaling pathway via nmda receptor ionotropic glutamate receptor signaling pathway activation of nmda receptors and postsynaptic events
+	gamma-aminobutyric acid signaling pathway gaba receptor activation
+	classical complement pathway complement activation, classical pathway classical pathway classical antibody-mediated complement activation
+	lectin complement pathway lectin pathway of complement activation mannose-binding lectin pathway lectin pathway complement activation, lectin pathway
 signal transduction in fibroblasts
+-----
+	signaling pathway signal transduction
+	signaling pathway signal transduction
+	signaling pathway pertinent to the brain and nervous system neuronal system neuronal signal transduction
+	signaling pathway pertinent to the brain and nervous system neuronal system neuronal signal transduction
+	rab family mediated signaling pathway rab protein signal transduction
+	rab family mediated signaling pathway rab protein signal transduction
+	ran family mediated signaling pathway ran protein signal transduction
+	ran family mediated signaling pathway ran protein signal transduction
+	rap1 mediated signaling pathway rap protein signal transduction rap1 signalling
+	rap1 mediated signaling pathway rap protein signal transduction rap1 signalling
+	arf family mediated signaling pathway arf protein signal transduction
+	arf family mediated signaling pathway arf protein signal transduction
+	altered photosignal transduction pathway 
+	photosignal transduction pathway phototransduction  the phototransduction cascade
 	altered visual phototransduction pathway diseases associated with visual transduction
 septation initiation network
+-----
+	rna polymerase ii transcription initiation pathway transcription initiation at rna polymerase ii promoter rna polymerase ii transcription initiation
+	rna polymerase i transcription initiation pathway transcription initiation at rna polymerase i promoter rna polymerase i transcription initiation
+	rna polymerase iii transcription initiation pathway transcription initiation at rna polymerase iii promoter rna polymerase iii transcription initiation
 	translation initiation pathway translational initiation
 senescence associated secretory phenotype
+-----
+	cellular senescence pathway cellular senescence
+	protein secretory pathway 
+	regulated protein secretory pathway regulated exocytosis
+	protein modification pathway in the secretory pathway 
+	constitutive exocytosis pathway constitutive secretory pathway
+	constitutive protein secretory pathway constitutive secretory pathway
+	neuronal secretory pathway 
 	altered visual phototransduction pathway diseases associated with visual transduction
-salmonella pan-reactome
-	salmonella infection pathway kegg:05132
 regulation of the l-arabinose operon of escherichia coli.
-	transport pathway for the elimination of drugs, endogenous or exogenous compounds and metabolites 
+-----
+	insulin secretion pathway regulation of insulin secretion insulin secretion
+	hypoxia inducible factor pathway hif pathway regulation of gene expression by hypoxia-inducible factor
+	pathogenic escherichia coli infection pathway pathogenic e. coli infection pathway kegg:05130
 processing of spz network from the drosophila signaling pathway
-	c chemokine mediated signaling pathway 
+-----
+	3'-end pre-mrna processing pathway 
+	mrna maturation pathway mrna processing
+	alternate pathways of glutathione conjugates processing 
+	preproglucagon processing pathway 
+	rna processing pathway rna processing
+	radical sam enzyme mediated rna processing pathway 
+	antigen processing and presentation pathway antigen processing and presentation
+	antigen processing pathway 
+	trna maturation pathway trna processing
+	rrna maturation pathway rrna processing
+	glutathione conjugates processing - the mercapturic acid pathway 
+	thyroglobulin processing pathway 
+	insulin biosynthetic pathway preproinsulin processing pathway insulin processing
+	class i major histocompatibility complex pathway class i mhc mediated antigen processing & presentation antigen processing and presentation of peptide antigen via mhc class i mhc class i antigen presentation pathway class i mhc pathway
+	class ii major histocompatibility complex pathway antigen processing and presentation of peptide antigen via mhc class ii class ii mhc pathway mhc class ii antigen presentation
 pro-inflammatory tumor microenvironment in acute lymphoblastic leukemia
+-----
+	thyroid cancer pathway malignant tumor of thyroid gland pathway malignant neoplasm of thyroid gland pathway kegg:05216 thyroid neoplasm pathway
+	chronic myeloid leukemia pathway kegg:05220
+	lymphoid leukemia pathway lymphocytic leukemia pathway
+	pro-inflammatory cytokine mediated pathway 
+	tumor necrosis factor member 14 signaling pathway tnfsf14 (light) signaling pathway tnfsf14 signaling pathway
+	tumor necrosis factor mediated signaling pathway tnfalpha signaling pathway tnf signaling tnf signaling pathway tumor necrosis factor-mediated signaling pathway
+	myeloid leukemia pathway 
+	altered tumor necrosis factor superfamily mediated signaling pathway altered tnf superfamily signaling pathay
+	leukemia pathway 
+	tumor necrosis factor member 13 signaling pathway tnfsf13 signaling pathway tnfsf13 (april) signaling pathway
+	leukemia inhibitory factor signaling pathway lif signaling pathway leukemia inhibitory factor signaling pathway
+	tumor necrosis factor member 13b signaling pathway tnfsf13b (baff) signaling pathway tnfsf13b signaling pathway
+	tumor necrosis factor superfamily mediated signaling pathway tnf superfamily mediated signaling pathway
+	prostate cancer pathway malignant tumor of the prostate pathway familial prostate cancer pathway hereditary prostate cancer pathway prostatic cancer pathway kegg:05215 prostate neoplasm pathway
+	acute myeloid leukemia pathway kegg:05221
+	acute myeloid leukemia pathway kegg:05221
+	altered tumor necrosis factor mediated signaling pathway altered tnf signaling pathway altered tnf-alpha signaling pathway
 	acute intermittent porphyria pathway acute intermittent porphyria disease pathway smp:00344
 predicting variabilities in cardiac gene
+-----
+	microrna pathway microrna (mirna) biogenesis production of mirnas involved in gene silencing by mirna mirna pathway
+	hypoxia inducible factor pathway hif pathway regulation of gene expression by hypoxia-inducible factor
 	retinoic acid-inducible gene (rig) i-like receptor signaling pathway rlr signaling pathway rig-i signaling pathway
-plasmodium knowlesi strain h
-	malaria pathway malaria infection pathway plasmodium infection pathway kegg:05144
-plasmodium falciparum 3d7
-	malaria pathway malaria infection pathway plasmodium infection pathway kegg:05144
-plasmodium cynomolgi strain b
-	amphotericin b drug pathway 
-plasmodium berghei
-	malaria pathway malaria infection pathway plasmodium infection pathway kegg:05144
 pc12 cell differentiation
-	necrosis pathway necrotic cell death
+-----
+	synaptic differentiation pathway 
+	postsynaptic differentiation pathway 
+	presynaptic differentiation pathway 
 oxidative stress pathway
-	brain-derived neurotrophic factor signaling pathway brain-derived neurotrophic factor receptor signaling pathway bdnf activates ntrk2 (trkb) signaling bdnf signaling pathway
+-----
+	oxidative stress response pathway 
+	oxidative stress response pathway 
+	oxidative phosphorylation pathway oxidative phosphorylation
+	altered oxidative stress response pathway 
+	altered oxidative stress response pathway 
+	stress response pathway 
+	pentose phosphate pathway - oxidative phase pentose-phosphate shunt, oxidative branch
+	altered stress response pathway 
+	endoplasmic reticulum stress  - the unfolded protein response pathway unfolded protein response (upr) endoplasmic reticulum unfolded protein response er stress - upr pathway
 neurotrasnmitter signaling pathway
-	c chemokine mediated signaling pathway 
-mycobacterium tuberoculosis h37rv
-	tuberculosis pathway mycobacterium tuberculosis infection pathway kegg:05152
+-----
 metabolic interactions in the gut microbiome
+-----
+	cysteine metabolic pathway cysteine metabolic process
+	choline metabolic pathway smp:00123
+	nicotinamide adenine dinucleotide metabolic pathway nad metabolic pathway smp:00129 smp:00124
+	carotene metabolic pathway carotene metabolic process
+	steroid hormone metabolic pathway metabolism of steroid hormones
+	retinol metabolic pathway retinol metabolic process retinoid metabolism and transport
+	peptide neurotransmitter metabolic pathway 
+	neurotensin metabolic pathway 
+	neuropeptide y metabolic pathway 
+	gamma-aminobutyric acid metabolic pathway gaba metabolism gaba synthesis, release, reuptake and degradation gamma-aminobutyric acid metabolic process
+	peptide and protein metabolic pathway 
+	phosphatidylglycerol metabolic pathway phosphatidylglycerol metabolic process
+	hydrophilic amino acid metabolic pathway 
+	glycine metabolic pathway glycine metabolic process
+	energy metabolic pathway 
+	eicosanoid metabolic pathway icosanoid metabolic process
+	butanoate metabolic pathway butyrate metabolic pathway
+	altered phosphatidylinositol metabolic pathway 
+	lipid neurotransmitter metabolic pathway 
+	altered metabolic pathway of other amino acids 
+	glycerophospholipid metabolic pathway glycerophospholipid metabolic process phospholipid metabolic pathway
+	deoxyribonucleotide metabolic pathway deoxyribonucleotide metabolic process
+	linoleic acid metabolic pathway linoleic acid metabolic process linoleic acid (la) metabolism
+	altered phosphoinositide metabolic pathway 
+	endocannabinoid metabolic pathway 
+	metabolic pathway of cofactors, vitamins, nutrients metabolism of vitamins and cofactors
+	alanine, aspartate and glutamate metabolic pathway kegg:00250
+	prostaglandin metabolic pathway prostaglandin metabolic process
+	biogenic amines and polyamines metabolic pathway 
+	metabolic pathway pertinent to the brain 
+	fructose and mannose metabolic pathway kegg:00051 smp:00064
+	valine metabolic pathway valine metabolic process
+	biotin metabolic pathway biotin transport and metabolism vitamin b7 metabolic pathway biotin metabolic process
+	lysine metabolic pathway lysine metabolic process
+	arginine and proline metabolic pathway kegg:00330 smp:00020
+	amino acid neurotransmitter metabolic pathway 
+	cholesterol metabolic pathway cholesterol metabolic process
+	folate metabolic pathway folic acid metabolic process vitamin b9 metabolic pathway
+	ketone bodies metabolic pathway ketone body metabolism cellular ketone body metabolic process
+	alanine metabolic pathway alanine metabolism alanine metabolic process
+	cerebroside metabolic pathway 
+	altered homocysteine metabolic pathway 
+	altered sphingolipid metabolic pathway 
+	altered metabolic pathway 
+	altered energy metabolic pathway 
+	glutamine metabolic pathway glutamine metabolic process
+	altered retinoid metabolic pathway retinoid metabolism disease events
+	altered glycerophospholipid metabolic pathway 
+	altered glycan metabolic pathway 
+	nucleotide sugar metabolic pathway kegg:00520 smp:00010
+	lactose metabolic pathway lactose metabolic process
+	phospholipid metabolic pathway 
+	arachidonic acid metabolic pathway arachidonic acid metabolism arachidonic acid metabolic process arachidonic acid cascade
+	phenylalanine metabolic pathway phenylalanine metabolism l-phenylalanine metabolic process
+	altered folate cycle metabolic pathway 
+	sphingolipid metabolic pathway sphingolipid metabolism sphingolipid metabolic process
+	altered retinoid cycle metabolic pathway altered visual cycle metabolic pathway retinoid cycle disease events
+	threonine metabolic pathway threonine metabolic process
+	abscisic acid metabolic pathway abscisic acid metabolic process
+	tryptophan metabolic pathway tryptophan metabolic process
+	homocysteine metabolic pathway homocysteine metabolic process hcy metabolism
+	prostanoid metabolic pathway prostanoid metabolic process
+	classic metabolic pathway metabolic process metabolism
+	cysteine and methionine metabolic pathway kegg:00270
+	prostacyclin metabolic pathway 
+	catecholamine metabolic pathway catecholamine metabolic process
+	fumonisin metabolic pathway fumonisin metabolic process
+	proline metabolic pathway proline metabolic process
+	altered glucocerebroside metabolic pathway 
+	amine neurotransmitter metabolic pathway 
+	altered ganglioside metabolic pathway 
+	lipoic acid metabolic pathway lipoate metabolic process
+	glycogen metabolic pathway glycogen metabolism glycogen metabolic process
+	cytosine monophosphate metabolic pathway 
+	leukotriene metabolic pathway leukotriene metabolic process
+	sulfur metabolic pathway sulfur compound metabolic process
+	terpene and terpenoid metabolic pathway 
+	vitamin b6 metabolic pathway vitamin b6 metabolic process pyridoxine metabolic pathway
+	phosphonate and phosphinate metabolic pathway 
+	polyamine metabolic pathway metabolism of polyamines polyamine metabolic process
+	folate cycle metabolic pathway 
+	globoside metabolic pathway globoside metabolic process
+	vitamin k metabolic pathway metabolism of vitamin k vitamin k metabolic process
+	altered carbohydrate metabolic pathway 
+	d-glutamine and d-glutamate metabolic pathway kegg:00471
+	serine metabolic pathway 
+	ascorbic acid metabolic pathway vitamin c metabolic pathway l-ascorbic acid metabolic process vitamin c (ascorbate) metabolism
+	phosphatidylcholine metabolic pathway phosphatidylcholine metabolic process
+	phosphoinositide metabolic pathway phosphatidylinositol phosphate metabolic pathway smp:00463
+	ether lipid metabolic pathway ether lipid metabolic process
+	norepinephrine metabolic pathway noradrenaline metabolism norepinephrine metabolic process
+	creatine metabolic pathway creatine metabolism creatine metabolic process
+	vitamin d metabolic pathway vitamin d (calciferol) metabolism vitamin d metabolic process
+	nitrogen metabolic pathway 
+	uridine diphosphate glucose metabolic pathway udp-glucose metabolic pathway udp-glucose metabolic process
+	cardiolipin metabolic pathway cardiolipin metabolic process
+	metabolic disease pathway diseases of metabolism
+	epinephrine metabolic pathway epinephrine metabolic process adrenaline metabolism
+	toxic secondary metabolite metabolic pathway mycotoxin metabolic process mycotoxin metabolic pathway
+	guanosine diphosphate mannose metabolic pathway 
+	taurine and hypotaurine metabolic pathway smp:00021 kegg:00430
+	aflatoxin metabolic pathway aflatoxin metabolic process
+	bacterial polysaccharide metabolic pathway 
+	pyruvate metabolic pathway pyruvate metabolism pyruvate metabolic process
+	lysine metabolic pathway 
+	vitamin e metabolic pathway vitamin e metabolic process tocopherol metabolic pathway
+	histamine metabolic pathway histamine metabolic process
+	starch and sucrose metabolic pathway kegg:00500 smp:00058
+	methane metabolic pathway methane metabolic process
+	kynurenine metabolic pathway kynurenine metabolic process
+	altered lipoprotein metabolic pathway 
+	nucleotide metabolic pathway metabolism of nucleotides nucleotide metabolic process
+	carnitine metabolic pathway carnitine metabolic process carnitine metabolism
+	leucine metabolic pathway leucine metabolic process
+	selenoamino acid metabolic pathway selenocompound metabolic pathway selenoamino acid metabolism
+	fatty acid metabolic pathway fatty acid metabolic process fatty acid metabolism
+	caffeine metabolic pathway kegg:00232
+	inhibitory neurotransmitter metabolic pathway 
+	altered folate metabolic pathway 
+	sugar alcohol metabolic pathway 
+	glutathione metabolic pathway glutathione metabolic process
+	altered hydrophobic amino acid metabolic pathway 
+	porphyrin metabolic pathway metabolism of porphyrins porphyrin-containing compound metabolic process
+	asparagine metabolic pathway asparagine metabolic process
+	glyoxalase metabolic pathway smp:00459 pyruvaldehyde degradation pathway methylglyoxal degradation pathway 2-oxo propanol degradation pathway
+	glutamic acid/glutamate metabolic pathway smp:00072
+	dopamine metabolic pathway dopamine metabolic process
+	altered metabolic pathway of cofactors, vitamins, nutrients 
+	sphingomyelin metabolic pathway sphingomyelin metabolic process
+	propanoate metabolic pathway propionate metabolic process
+	plasmalogen metabolic pathway smp:00479
+	carbohydrate metabolic pathway carbohydrate metabolic process metabolism of carbohydrates
+	ether lipid metabolic pathway 
+	aspartic acid/aspartate metabolic pathway <new synonym>smp:00067
+	alpha-linolenic acid metabolic pathway alpha-linolenic acid (ala) metabolism alpha-linolenic acid metabolic process
+	hexosamine metabolic pathway 
+	ganglioside metabolic pathway ganglioside metabolic process
+	amino acid metabolic pathway cellular amino acid metabolic process
+	isoleucine metabolic pathway isoleucine metabolic process
+	tetrahydrobiopterin metabolic pathway bh4 metabolic pathway tetrahydrobiopterin metabolic process
+	steroid metabolic pathway metabolism of steroids steroid metabolic process
+	retinoid cycle metabolic pathway visual cycle metabolic pathway
+	glycan metabolic pathway polysaccharide metabolic process
+	galactocerebroside metabolic pathway 
+	altered lipid metabolic pathway 
+	cyanoamino acid metabolic pathway cyanoamino acid metabolic process
+	galactose metabolic pathway galactose metabolic process
+	altered glycogen metabolic pathway 
+	serotonin metabolic pathway metabolism of serotonin serotonin metabolic process
+	metabolic pathway of secondary metabolites 
+	hydrophobic amino acid metabolic pathway 
+	glucocerebroside metabolic pathway 
+	glyoxylate and dicarboxylate metabolic pathway kegg:00630
+	isoprenoid metabolic pathway terpenoid metabolic pathway isoprenoid metabolic process
+	acetylcholine metabolic pathway acetylcholine metabolic process
+	beta-alanine metabolic pathway beta-alanine metabolic process
+	metabolic pathway of other amino acids 
+	glycosphingolipid metabolic pathway glycosphingolipid metabolism gsl metabolic pathway glycosphingolipid metabolic process glycolipid metabolic pathway
+	arylamine metabolic pathway 
+	excitatory neurotransmitter metabolic pathway 
+	pyrimidine metabolic pathway pyrimidine nucleobase metabolic process
+	shikimate metabolic pathway shikimate metabolic process
+	triacylglycerol metabolic pathway triglyceride metabolism triglyceride metabolic pathway triglyceride metabolic process
+	inborn error of brain metabolic pathway inborn error of brain metabolic disease pathway
+	benzo(a)pyrene metabolic pathway 
+	neurotransmitter metabolic pathway neurotransmitter metabolic process
+	radical sam enzyme mediated metabolic pathway 
+	inositol phosphate metabolic pathway inositol phosphate metabolic process inositol phosphate metabolism
+	spermine metabolic pathway spermine metabolic process
+	glycine, serine and threonine metabolic pathway kegg:00260
+	glycerolipid metabolic pathway glycerolipid metabolic process
+	enkephalin metabolic pathway 
+	folate mediated one-carbon metabolic pathway kegg:00670
+	peptide and protein hormone metabolic pathway 
+	substance p metabolic pathway 
+	cobalamin metabolic pathway cobalamin (cbl, vitamin b12) transport and metabolism cobalamin metabolic process vitamin b12 metabolic pathway
+	retinoic acid metabolic pathway ra metabolic pathway retinoic acid metabolic process
+	amino acid metabolic pathway (kegg) 
+	riboflavin metabolic pathway vitamin b2 (riboflavin) metabolism riboflavin metabolic process vitamin b2 metabolic pathway
+	inositol metabolic pathway inositol metabolic process
+	altered galactose metabolic pathway 
+	d-alanine metabolic pathway d-alanine metabolic process alanine metabolism
+	altered isoprenoid metabolic pathway 
+	polycyclic aromatic hydrocarbon metabolic pathway pah metabolic pathway
+	lipoprotein metabolic pathway lipoprotein metabolic process plasma lipoprotein assembly, remodeling, and clearance
+	lipid metabolic pathway lipid metabolic process metabolism of lipids
+	indoleamine and related compounds metabolic pathway 
+	purine metabolic pathway purine nucleobase metabolic process
+	nutritional and metabolic disease pathway 
+	chorismate metabolic pathway chorismate metabolic process
+	altered folate mediated one-carbon metabolic pathway 
+	altered glycosphingolipid metabolic pathway 
+	pantothenic acid metabolic pathway vitamin b5 metabolic pathway pantothenate metabolic process vitamin b5 (pantothenate) metabolism
+	trehalose metabolic pathway trehalose metabolic process tremalose metabolic pathway mycose metabolic pathway
+	ascorbate and aldarate metabolic pathway kegg:00053
+	phosphatidylinositol metabolic pathway pi metabolism phosphatidylinositol metabolic process
+	niacin metabolic pathway vitamin b3 metabolic pathway nicotinate metabolic process nicotinate metabolism
+	trichothecene metabolic pathway 
+	beta-endorphin metabolic pathway 
+	spermidine metabolic pathway spermidine metabolic process
+	amino sugar metabolic pathway amino sugar metabolic process
+	phosphatidylserine metabolic pathway phosphatidylserine metabolic process
+	starch and cellulose metabolic pathway 
+	tyrosine metabolic pathway tyrosine metabolic process
+	heme metabolic pathway heme metabolic process
+	d-arginine and d-ornithine metabolic pathway kegg:00472
+	metabolic syndrome x pathway dysmetabolic syndrome x pathway metabolic syndrome pathway abdominal obesity-metabolic syndrome 1 pathway
+	porphyrin and chlorophyll metabolic pathway kegg:00860
+	altered amino acid metabolic pathway 
+	ascaroside metabolic pathway ascaroside metabolic process
+	altered galactocerebroside metabolic pathway 
+	retinoid metabolic pathway vitamin a metabolic pathway retinoid metabolic process retinoid metabolism and transport
+	thiamine metabolic pathway vitamin b1 (thiamin) metabolism vitamin b1 metabolic pathway
+	altered cerebroside metabolic pathway 
+	lacto-series glycosphingolipid metabolic pathway kegg:00601
+	altered sphingomyelin metabolic pathway 
+	special amino acid metabolic pathway 
+	c5-branched dibasic acid metabolic pathway 
+	xenobiotic metabolic pathway xenobiotic metabolic process
+	putrescine metabolic pathway putrescine metabolic process
+	coenzyme a metabolic pathway coenzyme a metabolic process
+	glycosaminoglycan metabolic pathway glycosaminoglycan metabolic process glycosaminoglycan metabolism
+	lycopene metabolic pathway lycopene metabolic process
+	thromboxane metabolic pathway 
+	arginine metabolic pathway arginine metabolic process
 	histidine metabolic pathway histidine metabolic process
 mapk cancer cell fate network
+-----
+	thyroid cancer pathway malignant tumor of thyroid gland pathway malignant neoplasm of thyroid gland pathway kegg:05216 thyroid neoplasm pathway
+	nervous system and nerve tissue cancer pathway nervous system and nerve tissue neoplasm pathway
+	urinary bladder cancer pathway bladder cancer pathway kegg:05219 bladder neoplasm pathway
+	endocrine gland cancer pathway endocrine gland neoplasm pathway
+	head and neck cancer pathway head and neck neoplasm pathway
+	gastric cancer pathway stomach cancer pathway gastric neoplasm pathway stomach neoplasm pathway
+	ovarian cancer pathway ovarian neoplasm pathway
+	cervical cancer pathway cervical neoplasm pathway
+	liver cancer pathway hepatic cancer pathway liver neoplasm pathway hepatic neoplasm pathway
+	intestinal cancer pathway intestinal neoplasm pathway
+	altered mitogen activated protein kinase pathway altered mapk signaling pathway
+	altered stress-regulated mapk signaling pathway altered sapk pathways
+	gastrointestinal cancer pathway gastrointestinal neoplasm pathway
+	lung cancer pathway lung neoplasm pathway
+	small cell lung carcinoma pathway oat cell carcinoma of lung pathway small cell carcinoma of lung pathway small cell lung cancer pathway small cell neuroendocrine carcinoma of lung pathway kegg:05222 sclc pathway small cell lung neoplasm pathway
+	skin cancer pathway skin neoplasm pathway
+	parathyroid cancer pathway 
+	erk5 mapk signaling pathway erk5 cascade bmk1 mapk signaling pathway signalling to erk5
+	colorectal cancer pathway kegg:05210 colorectal neoplasm pathway
+	respiratory tract cancer pathway respiratory tract neoplasm pathway
+	altered p38 mapk signaling pathway 
+	bone cancer pathway bone neoplasm pathway
+	urogenital cancer pathway urinogenital cancer pathway genitourinary cancer pathway
+	non-small cell lung carcinoma pathway non-small cell lung cancer pathway nsclc pathway kegg:05223 non-small cell lung neoplasm pathway
+	pancreatic cancer pathway malignant neoplasm of pancreas pathway kegg:05212 pancreatic neoplasm pathway
+	renal cell carcinoma pathway hypernephroma pathway renal cell cancer pathway adenocarcinoma of kidney pathway rcc pathway kegg:05211
+	c-jun n-terminal kinases mapk signaling pathway jnk signaling pathway jnk cascade
+	p38 mapk signaling pathway p38mapk events
+	cancer pathway neoplasm pathway
+	digestive system cancer pathway digestive system neoplasm pathway gastrointestinal neoplasm pathway
+	altered c-jun n-terminal kinase mapk signaling pathway altered jnk signaling pathway
+	prostate cancer pathway malignant tumor of the prostate pathway familial prostate cancer pathway hereditary prostate cancer pathway prostatic cancer pathway kegg:05215 prostate neoplasm pathway
+	stress-regulated mapk signaling pathway stress-activated mapk cascade sapk signaling pathway
+	endometrial cancer pathway kegg:05213 endometrial neoplasm pathway
+	mitogen activated protein kinase signaling pathway mapk family signaling cascades mapk signaling pathway mapk cascade
+	altered erk5 mapk signaling pathway 
+	thoracic cancer pathway thoracic neoplasm pathway
 	breast cancer pathway breast neoplasm
 mammalian cell cycle 2006
-	reductive carboxylate cycle - co2 fixation pathway 
+-----
 mammalian cell cycle
-	reductive carboxylate cycle - co2 fixation pathway 
+-----
 lymphopoiesis regulatory network
+-----
+	altered regulatory pathway 
+	altered regulatory pathway pertinent to the brain 
+	regulatory pathway pertinent to the brain 
+	regulatory pathway 
 	sterol regulatory element-binding protein signaling pathway srebp signaling pathway
 lymphoid and myeloid cell specification and transdifferentiation
+-----
+	chronic myeloid leukemia pathway kegg:05220
+	lymphoid leukemia pathway lymphocytic leukemia pathway
+	myeloid leukemia pathway 
 	acute myeloid leukemia pathway kegg:05221
+lac operon
+-----
 iron acquisition and oxidative stress response in aspergillus fumigatus
+-----
+	iron storage pathway 
+	oxidative stress response pathway 
+	oxidative stress response pathway 
+	oxidative stress response pathway 
+	oxidative phosphorylation pathway oxidative phosphorylation
+	organophosphate response pathway 
+	signaling pathway in the innate immune response 
+	iron utilization pathway 
+	inflammatory response pathway clr signaling pathway inflammatory response
+	altered iron homeostasis pathway 
+	immune response pathway immune system immune response
+	iron efflux pathway 
+	zellweger syndrome pathway peroxisome biogenesis disorder pathway congenital iron overload pathway cerebrohepatorenal syndrome pathway smp:00316
+	nicotine response pathway 
+	adaptive immune response pathway adaptive immune system adaptive immune response
+	signaling pathway in the adaptive immune response 
+	carbon nanotube response pathway cnt response pathway
+	innate immune response pathway innate immune response innate immune system
+	ozone response pathway 
+	doxorubicin response pathway 
+	nanomaterial response pathway 
+	mitochondrial unfolded protein response pathway uprmt pathway mitochondrial unfolded protein response
+	paracetamol response pathway acetaminophen response pathway
+	altered oxidative stress response pathway 
+	altered oxidative stress response pathway 
+	altered oxidative stress response pathway 
+	iron transport pathway iron uptake and transport iron ion transport
+	procainamide response pathway 
+	platinum (pt) containing drug response pathway 
+	cisplatin response pathway response to cisplatin
+	carbon tetrachloride response pathway ccl4 response pathway
+	bisphenol a response pathway response to bisphenol a  bpa response pathway
+	acrolein response pathway 
+	stress response pathway 
+	stress response pathway 
+	pentose phosphate pathway - oxidative phase pentose-phosphate shunt, oxidative branch
+	toxin and toxicant response pathway 
+	altered stress response pathway 
+	altered stress response pathway 
+	iron homeostasis pathway iron ion homeostasis
+	cerium oxide nanoparticle response pathway 
+	iron uptake pathway 
+	titanium dioxide nanoparticle response pathway nano-tio2 response pathway
+	dna damage response pathway ddr pathway
+	docetaxel response pathway 
+	endoplasmic reticulum stress  - the unfolded protein response pathway unfolded protein response (upr) endoplasmic reticulum unfolded protein response er stress - upr pathway
+	endoplasmic reticulum stress  - the unfolded protein response pathway unfolded protein response (upr) endoplasmic reticulum unfolded protein response er stress - upr pathway
+	carboplatin response pathway response to carboplatin
 	paraquat response pathway 
 influenza a virus replication cycle
+-----
+	g2/m dna replication checkpoint pathway g2/m dna replication checkpoint
+	vitamin a deficiency pathway deficiency of vitamin a pathway hypovitaminosis a pathway smp:00336
+	eukaryotic dna replication pathway dna replication cell cycle dna replication
+	forkhead class a signaling pathway pid:200226 pid:200087 foxa signaling pathway
+	hepatitis b virus infection pathway kegg:05161
+	mitochondrial dna replication pathway mtdna replication pathway mitochondrial dna replication
+	human t-lymphotropic virus type 1 infection pathway htlv-1 infection pathway kegg:05166
+	pathway pertinent to dna replication and repair, cell cycle, maintenance of genomic integrity, rna and protein biosynthesis 
+	protein kinase a (pka) signaling pathway camp/pka signaling pathway camp-dependent protein kinase a signaling pathway protein kinase a signaling
+	metachromatic leukodystrophy pathway sulfatide lipoidosis pathway arylsulfatase a deficiency pathway metachromatic leukodystrophy disease pathway scholz cerebral sclerosis pathway deficiency of cerebroside-sulfatase pathway smp:00347 mld pathway
+	altered vitamin a homeostasis 
+	vitamin a and metabolites signaling pathway 
+	bacterial dna replication pathway 
+	nuclear dna replication pathway nuclear dna replication
+	influenza a pathway influenza a virus infection pathway kegg:05164
+	influenza a pathway influenza a virus infection pathway kegg:05164
+	influenza a pathway influenza a virus infection pathway kegg:05164
+	epstein-barr virus infection pathway kegg:05169
+	altered vitamin a and metabolites signaling pathway 
+	bisphenol a degradation pathway bisphenol a catabolic process
+	bisphenol a response pathway response to bisphenol a  bpa response pathway
+	herpes simplex virus infection pathway kegg:05168
+	dna replication pathway dna replication
+	hepatitis c pathway nanbh pathway hepatitis nona nonb pathway hepatitis c virus infection pathway viral hepatitis c pathway chronic hepatitis c pathway hepatitis c infection pathway kegg:05160
+	tay-sachs disease pathway hexosaminidase a deficiency pathway smp:00390
+	altered pathway pertinent to dna replication and repair, cell cycle, maintenance of genomic integrity, rna and protein biosynthesis 
+	retinoid metabolic pathway vitamin a metabolic pathway retinoid metabolic process retinoid metabolism and transport
+	coenzyme a metabolic pathway coenzyme a metabolic process
+	coenzyme a biosynthetic pathway coenzyme a biosynthetic process coenzyme a biosynthesis
 	vitamin a homeostasis 
 inflammatory bowel disease (ibd) model
+-----
+	nervous system disease pathway 
+	nervous system lysosomal storage disease pathway 
+	liver disease pathway 
+	sphingolipidosis pathway sphingolipidoses disease pathway
+	wolman disease pathway acid esterase deficiency pathway acid lipase deficiency pathway wolman's disease pathway wolman's or triglyceride storage type iii disease pathway wolman xanthomatosis pathway xanthomatosis, familial pathway smp:00319 smp:00511 lysosomal acid lipase deficiency pathway (wolman type)
+	methylmalonic acidemia pathway methylmalonic acidemia disease pathway methylmalonic aciduria disease pathway smp:00200
+	lipoid congenital adrenal hyperplasia pathway lipoid congenital adrenal hyperplasia disease pathway lipoid cah pathway adrenal hyperplasia 1 pathway congenital lipoid adrenal hyperplasia pathway clah pathway congenital adrenal hyperplasia pathway lcah disease pathway smp:00371
+	maple syrup urine disease pathway branched chain ketoaciduria pathway ketoacidemia pathway dihydrolipoamide dehydrogenase deficiency pathway smp:00199
+	methylmalonic aciduria, cobalamin-related pathway methylmalonic aciduria, cobalamin-related, disease pathway methylmalonic aciduria, cobalamin-related disease pathway smp:00201
+	arterial occlusive disease pathway 
+	orotic aciduria pathway orotic aciduria disease pathway
+	kennedy's disease pathway spinobulbar muscular atrophy disease pathway spinobulbar muscular atrophy pathway kennedy disease pathway x-linked spinal and bulbar muscular atrophy pathway spinal bulbar muscular atrophy pathway x-linked bulbo-spinal atrophy pathway sbma disease pathway
+	obesity pathway obesity disease pathway
+	infectious disease pathway communicable disease pathway infectious disease transmissible disease pathway
+	digestive system disease pathway 
+	cardiovascular system disease pathway 
+	galactosemias pathway galactosemias disease pathway
+	congenital adrenal hyperplasia pathway congenital adrenal hyperplasia disease pathway
+	saccharopinuria pathway hyperlysinemia type ii pathway alpha-aminoadipic semialdehyde synthase deficiency pathway saccharopine dehydrogenase deficiency pathway saccharopinuria disease pathway hyperlysinemia type ii disease pathway smp:00528 smp:00239
+	intestinal disease pathway 
+	hyperprolinemia type ii pathway 1-pyrroline-5-carboxylate dehydrogenase deficiency pathway hyperprolinemia type ii disease pathway smp:00360
+	mitochondrial disease pathway 
+	xanthinuria type ii pathway xanthinuria disease pathway, type ii smp:00513
+	huntington's disease pathway huntington disease pathway hd pathway huntington's chorea pathway kegg:05016
+	citrullinemia pathway citrullinemia disease pathway citrullinemia type i disease pathway smp:00001
+	fructosuria pathway fructosuria disease pathway smp:00561
+	familial lipoprotein lipase deficiency pathway familial lpl deficiency pathway mixed hyperglyceridemia pathway familial chylomiconemia syndrome pathway fredrickson type i lipemia pathway hypercholesterinemic xanthomatosis pathway hyperchylomicronemia pathway fredrickson type i hyperlipoproteinemia pathway hyperlipoproteinemia type i disease pathway hyperlipoproteinemia type i pathway familial hyperlipoproteinemia type i pathway smp:00530
+	parkinson's disease pathway parkinson disease pathway paralysis agitans pathway kegg:05012
+	argininosuccinic aciduria pathway argininosuccinic aciduria disease pathway smp:00003
+	glucose metabolism disease pathway 
+	endocrine system disease pathway 
+	glycogen storage disease pathway glycogen storage diseases
+	nonketotic hyperglycinemia pathway non-ketotic hyperglycinemia pathway nonketotic hyperglycinemia pathway nonketotic hyperglycinemia disease pathway smp:00485 smp:00223
+	inborn error of steroid metabolism pathway inborn error of steroid metabolism disease pathway
+	primary immunodeficiency pathway primary immunodeficiency disease pathway kegg:05340
+	autonomic nervous system disease pathway 
+	inflammatory response pathway clr signaling pathway inflammatory response
+	avitaminosis pathway avitaminosis disease pathway
+	inborn error of renal tubular transport pathway inborn error of renal tubular transport disease pathway
+	carnosinemia pathway aminoacyl-histidine dipeptidase deficiency pathway carnosinemia disease pathway carnosinase deficiency pathway smp:00493
+	altered retinoid metabolic pathway retinoid metabolism disease events
+	cystinuria pathway cystinuria disease pathway smp:00723
+	chagas disease pathway trypanosoma cruzi infection pathway chagas' disease pathway american trypanosomiasis pathway chagas-mazza disease pathway south american trypanosomiasis pathway kegg:05142
+	inborn error of purine-pyrimidine metabolism pathway inborn error of purine-pyrimidine metabolism disease pathway
+	amyotrophic lateral sclerosis pathway als pathway amyotrophic lateral sclerosis disease pathway kegg:05014
+	desmosterolosis pathway desmosterolosis disease pathway smp:00386
+	glycogen storage disease type iv pathway brancher deficiency glycogenosis pathway deficiency of 1,4-alpha-glucan branching enzyme pathway amylopectinosis pathway branching-transferase deficiency glycogenosis pathway glycogen storage disease pathway, type iv. andersen disease pathway glycogen storage disease type iv (gbe1)
+	respiratory system disease pathway 
+	connective tissue disease pathway 
+	leigh disease pathway leigh syndrome pathway subacute necrotizing encephalomyelopathy pathway infantile necrotizing encephalomyelopathy pathway juvenile subacute necrotizing encephalomyelopathy pathway smp:00196
+	xanthinuria  type i pathway xanthinuria disease pathway, type i smp:00512
+	muscular disease pathway 
+	altered retinoid cycle metabolic pathway altered visual cycle metabolic pathway retinoid cycle disease events
+	genetic skin disease pathway 
+	inborn error of metabolism pathway inborn error of metabolism disease pathway
+	tyrosinemia pathway tyrosinemia disease pathway
+	primary hyperoxaluria type 1 pathway primary hyperoxaluria type 1 disease pathway smp:00352
+	gastrointestinal disease pathway 
+	lysosomal storage disease pathway lysosomal storage disorders
+	primary hyperoxaluria type 2 pathway primary hyperoxaluria type 2 disease pathway smp:00558
+	hartnup disease pathway smp:00189
+	hereditary central nervous system demyelinating disease pathway 
+	kidney disease pathway nephropathy pathway
+	x-linked genetic disease pathway 
+	hepatic porphyria pathway hepatic porphyria disease pathway
+	inborn error of carbohydrate metabolism pathway inborn error of carbohydrate metabolism disease pathway
+	histidinemia pathway histidinemia disease pathway histidinuria pathway smp:00191
+	metachromatic leukodystrophy pathway sulfatide lipoidosis pathway arylsulfatase a deficiency pathway metachromatic leukodystrophy disease pathway scholz cerebral sclerosis pathway deficiency of cerebroside-sulfatase pathway smp:00347 mld pathway
+	y-linked genetic disease pathway 
+	graft-versus-host disease pathway gvhd pathway kegg:05332
+	hyperinsulinism pathway hyperinsulinism disease pathway
+	krabbe disease pathway globoid cell leukodystrophy disease pathway krabbe's disease pathway beta galactocerebrosidase deficiency pathway globoid cell leukodystrophy pathway galactosylceramide beta-galactosidase deficiency pathway diffuse globoid body sclerosis pathway krabbe's leukodystrophy pathway smp:00348
+	glutathione synthase deficiency pathway pyroglutamic aciduria pathway 5-oxoprolinemia disease pathway smp:00337 5-oxoprolinuria disease pathway smp:00143
+	hyperlysinemia pathway hyperlysinemia disease pathway smp:00527 type i lysinemia disease pathway familial hyperlysinemia disease pathway
+	d-glycericacidemia pathway d-glycericacidemia disease pathway smp:00529 d-glyceric aciduria disease pathway
+	mucopolysaccharidoses pathway mucopolysaccharidoses disease pathway mucopolysaccharidoses
+	glycogen storage disease type ib pathway glucose-6-phosphate transport defect pathway glycogen storage disease pathway, type ib glycogen storage disease type ib (slc37a4)
+	xanthinuria pathway xanthine dehydrogenase deficiency pathway xanthinuria disease pathway smp:00220 xanthine oxidase deficiency
+	glycogen storage disease type iii pathway deficiency of debranching enzyme pathway glycogen storage disease pathway, type iii deficiency of dextrin pathway amylo 1,6 glucosidase deficiency pathway smp:00553 cori disease pathway
+	orotic aciduria 2 pathway orotic aciduria ii disease pathway orotic aciduria ii pathway hereditary orotic aciduria type ii pathway hereditary orotic aciduria type 2 pathway orotidine-5-phosphate decarboxylase deficiency pathway omp decarboxylase deficiency pathway ompdc deficiency pathway
+	dopa responsive dystonia pathway dopa responsive dystonia disease pathway smp:00486
+	inborn error of pyruvate metabolism pathway inborn error of pyruvate metabolism disease pathway
+	congenital hemidysplasia with ichthyosiform erythroderma and limb defects pathway congenital hemidysplasia with ichthyosiform erythroderma and limb defects disease pathway smp:00387 child syndrome pathway
+	inborn error of lipid metabolism pathway inborn error of lipid metabolism disease pathway
+	inborn error of fructose metabolism pathway inborn error of fructose metabolism disease pathway
+	orotic aciduria 1 pathway orotic aciduria 1 disease pathway smp:00219 ump synthase deficiency pathway
+	metabolic disease pathway diseases of metabolism
+	hyperhomocysteinemia pathway hyperhomocysteinemia disease pathway
+	homocystinuria pathway homocystinuria disease pathway cbs deficiency pathway cystathionine synthase deficiency pathway smp:00515 cystathionine beta-synthase deficiency pathway smp:00177
+	lipid metabolism disease pathway 
+	erythropoietic porphyria pathway erythropoietic porphyria disease pathway smp:00345 gunther disease pathway
+	primary hyperoxaluria pathway primary hyperoxaluria disease pathway
+	cystinosis pathway cystinosis disease pathway
+	osteochondrodysplasia pathway osteochondrodysplasia disease pathway
+	glutathionuria disease pathway gamma-glutamyltranspeptidase deficiency pathway gamma-glutamyltransferase deficiency pathway smp:00501
+	glycogen storage disease type vii pathway phosphofructokinase myopathy pathway muscle phosphofructokinase deficiency pathway glycogen storage disease pathway, type vii smp:00531 tarui disease pathway
+	creutzfeldt-jakob disease pathway cjd
+	inborn genetic disease pathway 
+	variegate porphyria pathway porphyria variegata disease pathway protocoproporphyria pathway protoporphyrinogen oxidase deficiency pathway smp:00346
+	prion disease pathway transmissible spongiform encephalopathy pathway prion protein disease pathway spongiform encephalopathy pathway kegg:05020
+	bone disease pathway 
+	inflammatory bowel disease pathway ibd disease pathway kegg:05321
+	inflammatory bowel disease pathway ibd disease pathway kegg:05321
+	inflammatory bowel disease pathway ibd disease pathway kegg:05321
+	brain disease pathway 
+	french type sialuria pathway french type sialuria disease pathway smp:00217 smp:00216
+	hypoglycemia pathway hypoglycemia disease pathway
+	tuberous sclerosis complex disease pathway tsc
+	familial hypercholanemia pathway familial hypercholanemia disease pathway smp:00317 fhca disease pathway
+	skin disease pathway 
+	asthma pathway asthma disease pathway kegg:05310
+	3-methylglutaconic aciduria type 3 pathway autosomal recessive optic atrophy plus syndrome pathway 3-methylglutaconic aciduria type iii pathway costeff optic atrophy syndrome pathway autosomal recessive optic atrophy type 3 pathway type iii 3-methylglutaconic aciduria disease pathway iraqi-jewish optic atrophy plus pathway infantile optic atrophy with chorea and spastic paraplegia pathway costeff syndrome pathway type iii 3-methylglutaconic aciduria pathway mga3 pathway costeff syndrome disease pathway smp:00140
+	hereditary folate malabsorption pathway hereditary folate malabsorption disease pathway smp:00724
+	kelley-seegmiller syndrome pathway hprt deficiency pathway partial hypoxanthine guanine phosphoribosyltransferase deficiency pathway hprt-related gout disease pathway smp:00365
+	substance dependence pathway substance dependence disease pathway
+	malonic aciduria pathway malonic aciduria disease pathway smp:00502 smp:00198 malonyl-coa decarboxylase deficiency pathway
+	congenital limb deformities pathway congenital limb deformities disease pathway
+	ethylmalonic encephalopathy pathway ethylmalonic encephalopathy disease pathway smp:00181
+	hyperargininemia pathway hyperargininemia disease pathway deficiency of canavanase pathway arginase deficiency pathway smp:00357 argininemia disease pathway
+	lysinuric protein intolerance pathway lysinuric protein intolerance disease pathway lpi pathway dibasic amino aciduria ii pathway hyperdibasic aminoaciduria pathway smp:00585 smp:00197
+	canavan disease pathway canavan-van bogaert-bertrand disease pathway smp:00175
+	hawkinsinuria pathway hawkinsinuria disease pathway smp:00190
+	musculoskeletal disease pathway 
+	adrenal gland disease pathway 
+	liver disease pathway 
+	sialic acid storage disease pathway smp:00240 salla disease pathway infantile sialic acid storage disease pathway
+	gout pathway gout disease pathway
+	tyrosinemia type iii pathway tyrosinemia type iii disease pathway smp:00370 smp:00434
+	glutaric aciduria type i pathway glutaric aciduria type i disease pathway glutaryl-coa dehydrogenase deficiency pathway glutaric aciduria i pathway glutaric acidemia i pathway smp:00186 smp:00185
+	urogenital disease pathway 
+	3-methylglutaconic aciduria type 1 pathway 3mg-coa hydratase deficiency pathway 3-methylglutaconyl-coa hydratase deficiency pathway mga1 pathway type i 3-methylglutaconic aciduria pathway mga type i pathway type i 3-methylglutaconic aciduria disease pathway smp:00139
+	biliary tract disease pathway 
+	sarcosinemia pathway sard deficiency pathway sarcosine dehydrogenase complex deficiency pathway sardhd pathway hypersarcosinemia pathway sarcosinemia disease pathway sarcos pathway sardh deficiency pathway smp:00244
+	inborn error of metal metabolism pathway inborn error of metal metabolism disease pathway
+	polyglutamine repeat pathway polyglutamine repeat disease pathway polyq repeat disease pathway
+	pyruvate carboxylase deficiency pathway pyruvate carboxylase deficiency disease pathway smp:00350
+	hypermethioninemia pathway hypermethioninemia disease pathway smp:00341
+	congenital disease pathway congenital disorder pathway
+	neuropsychiatric disease pathway mental disorder pathway
+	inborn error of amino acid metabolism pathway inborn error of amino acid metabolism disease pathway
+	arthritis pathway arthritis disease pathway
+	urologic disease pathway 
+	tyrosinemia type ii pathway oculocutaneous tyrosinemia pathway tyrosinemia type ii disease pathway smp:00369 richner-hanhart syndrome pathway
+	porphyria pathway porphyria disease pathway
+	neuromuscular manifestation of disease pathway neuromuscular manifestation disease pathway
+	skin and connective tissue disease pathway 
+	inborn error of brain metabolic pathway inborn error of brain metabolic disease pathway
+	neurological disorder pathway neurological disorder disease pathway
+	immune system disease pathway diseases of immune system
+	rheumatoid arthritis pathway rheumatic polyarthritis pathway atrophic arthritis pathway rheumatoid arthritis disease pathway rheumatic arthritis pathway kegg:05323
+	fumaric aciduria pathway fumaric aciduria disease pathway smp:00547 fumarase deficiency pathway
+	hyperprolinemia type i pathway hyperprolinemia disease pathway hyperprolinemia pathway smp:00361 hyperprolinemia type i disease pathway
+	fabry disease pathway, cerebrovascular 
+	mevalonic aciduria pathway mevalonate kinase deficiency pathway mevalonic aciduria disease pathway hyperimmunoglobulinemia d disease pathway hyper-igd syndrome pathway smp:00510 smp:00509
+	inborn error of urea cycle pathway urea cycle disease pathway inborn error of urea cycle disease pathway
+	cholesterol ester storage disease pathway smp:00508
+	2-aminoadipic 2-oxoadipic aciduria pathway 2-aminoadipic 2-oxoadipic aciduria disease pathway smp:00719
+	nervous system lysosomal storage disease pathway 
+	2-hydroxyglutaric aciduria pathway 2-hydroxyglutaricaciduria pathway 2-hydroxyglutaricaciduria disease pathway smp:00136
+	ornithine carbamoyltransferase deficiency pathway ornithine carbamoyltransferase deficiency disease pathway deficiency of citrulline phosphorylase pathway smp:00205 ornithine transcarbamylase deficiency pathway
+	narcolepsy pathway narcolepsy disease pathway
+	cerebrovascular disease pathway 
+	cerebrotendinous xanthomatosis pathway cerebrotendinous xanthomatosis disease pathway smp:00315 ctx disease pathway
+	tyrosinemia type i pathway tyrosinemia type i disease pathway hepatorenal tyrosinemia pathway smp:00218
+	glycogen storage disease type vi pathway hepatophosphorylase deficiency glycogenosis pathway hepatic glycogen phosphorylase deficiency pathway glycogen storage disease pathway, type vi hers disease pathway smp:00555
+	nutritional and metabolic disease pathway 
+	refsum disease pathway hmsn type iv pathway heredopathia atactica polyneuritiformis pathway refsum's disease pathway hsmn iv pathway smp:00451
+	iminoglycinuria pathway iminoglycinuria disease pathway smp:00193
+	phenylketonuria pathway phenylketonuria disease pathway følling's disease pathway pku pathway phenylalaninemia pathway phenylketonuria
+	hypophosphatasia pathway hypophosphatasia disease pathway smp:00503
+	hereditary coproporphyria pathway hereditary coproporphyria porphyria pathway hereditary coproporphyria disease pathway coproporphyrinogen oxidase deficiency pathway smp:00342
+	homocarnosinosis pathway homocarnosinase deficiency pathway homocarnosinosis disease pathway smp:00385
+	isovaleric acidemia pathway isovaleryl-coa dehydrogenase deficiency pathway isovaleric aciduria pathway isovaleric acid coa dehydrogenase deficiency pathway isovaleric acidemia disease pathway smp:00524 smp:00238 isovaleric aciduria disease pathway
+	alzheimer's disease pathway alzheimer disease pathway kegg:05010
+	urea cycle disease pathway 
+	tay-sachs disease pathway hexosaminidase a deficiency pathway smp:00390
+	glycogen storage disease  type ia pathway glycogen storage disease pathway, type ia von gierke disease pathway glycogen storage disease type ia (g6pc) hepatorenal glycogen storage disease pathway glucose-6-phosphatase deficiency pathway
+	fabry disease pathway smp:00525
+	disease pathway complex human diseases disease
+	sensory system disease pathway 
+	x-linked dominant chondrodysplasia punctata 2 pathway happle syndrome pathway cdpxd pathway x-linked dominant chondrodysplasia punctata 2 disease pathway conradi-hunermann syndrome pathway conradi-hunermann-happle syndrome pathway cpxd pathway smp:00388
+	chondrodysplasia punctata pathway chondrodysplasia punctata disease pathway
+	dystonia pathway dystonia disease pathway
+	hyperoxaluria pathway hyperoxaluria disease pathway
+	neurodegenerative pathway neurodegenerative disease pathway neurodegenerative diseases
+	spinocerebellar ataxia pathway spinocerebellar ataxia disease pathway sca disease pathway
+	propionic acidemia pathway ketotic hyperglycinemia pathway propionic acidemia disease pathway ketotic glycinemia pathway propionic aciduria pathway propionyl-coa carboxylase deficiency pathway smp:00236
+	alkaptonuria pathway alkaptonuria disease pathway smp:00169
+	gaucher's disease pathway gaucher disease pathway glocucerebrosidase deficiency pathway lipoid histiocytosis (kerasin type) pathway glucosylceramide beta-glucosidase deficiency pathway acid beta-glucosidase deficiency pathway kerasin thesaurismosis pathway smp:00349
+	dentatorubral-pallidoluysian atrophy pathway dentatorubral-pallidoluysian atrophy disease pathway drpla disease pathway
+	x-linked intellectual disability pathway x-linked mental retardation disease pathway
+	autoimmune thyroiditis pathway autoimmune thyroid disease pathway aitd pathway kegg:05320
+	hypercholesterolemia pathway hypercholesterolemia disease pathway smp:00209
+	xanthomatosis pathway xanthelasmatosis pathway xanthomatosis disease pathway
+	acute intermittent porphyria pathway acute intermittent porphyria disease pathway smp:00344
+	nonketotic hyperglycinemia disease pathway smp:00485
 	glycerol kinase deficiency pathway gkd pathway gk deficiency pathway hyperglycerolemia disease pathway hyperglycerolemia pathway glycerol kinase deficiency pathway smp:00187
 immune system model
+-----
+	renin-angiotensin cascade pathway ras system signaling pathway kegg:04614
+	nervous system disease pathway 
+	nervous system lysosomal storage disease pathway 
+	nervous system and nerve tissue cancer pathway nervous system and nerve tissue neoplasm pathway
+	complement system pathway complement activation complement cascade
+	digestive system disease pathway 
+	cardiovascular system disease pathway 
+	altered signaling pathway pertinent to the brain and nervous system 
+	signaling pathway in the innate immune response 
+	endocrine system disease pathway 
+	altered cardiovascular system homeostasis pathway 
+	autonomic nervous system disease pathway 
+	altered melanocortin system pathway 
+	respiratory system disease pathway 
+	genito-urinary system and sex hormones drug pathway 
+	immune response pathway immune system immune response
+	immune response pathway immune system immune response
+	hereditary central nervous system demyelinating disease pathway 
+	sensory system signaling pathway 
+	kallikrein-kinin cascade pathway tissue kallikrein-kinin cascade kks system signaling pathway
+	signaling pathway pertinent to the brain and nervous system neuronal system neuronal signal transduction
+	gas6 - axl signaling axis gas6-axl signaling system
+	adaptive immune response pathway adaptive immune system adaptive immune response
+	adaptive immune response pathway adaptive immune system adaptive immune response
+	signaling pathway in the adaptive immune response 
+	musculo-skeletal system drug pathway 
+	innate immune response pathway innate immune response innate immune system
+	innate immune response pathway innate immune response innate immune system
+	cardiovascular system homeostasis pathway 
+	immune system disease pathway diseases of immune system
+	immune system disease pathway diseases of immune system
+	cytokine mediated signaling pathway cytokine signaling in immune system cytokine-mediated signaling pathway
+	cytokine mediated signaling pathway cytokine signaling in immune system cytokine-mediated signaling pathway
+	renin-angiotensin system drug pathway 
+	nervous system lysosomal storage disease pathway 
+	cardiovascular system drug pathway dermatological drug pathway
+	melanocortin system pathway smp:00310
+	respiratory system drug pathway 
+	digestive system cancer pathway digestive system neoplasm pathway gastrointestinal neoplasm pathway
+	sensory system disease pathway 
+	nervous system drug pathway 
+	ghrelin system pathway 
+	leptin system pathway leptin-mediated signaling pathway signaling by leptin
 	altered leptin system pathway 
 il-6 signaling
-	c chemokine mediated signaling pathway 
+-----
+	interleukin-6 signaling pathway il-6 signaling pathway interleukin-6 signaling interleukin-6-mediated signaling pathway
+	interleukin-6 family mediated signaling pathway interleukin-6 family signaling il-6 family mediated signaling pathway
 il-1 signaling
-	c chemokine mediated signaling pathway 
+-----
+	interleukin-1 signaling pathway il-1 signaling pathway interleukin-1 signaling interleukin-1-mediated signaling pathway
+	interleukin-1 family mediated signaling pathway interleukin-1 family signaling il-1 family mediated signaling pathway
 human rheumatoid arthritis synovial fibroblast.sbml
+-----
+	human t-lymphotropic virus type 1 infection pathway htlv-1 infection pathway kegg:05166
+	arthritis pathway arthritis disease pathway
+	rheumatoid arthritis pathway rheumatic polyarthritis pathway atrophic arthritis pathway rheumatoid arthritis disease pathway rheumatic arthritis pathway kegg:05323
+	rheumatoid arthritis pathway rheumatic polyarthritis pathway atrophic arthritis pathway rheumatoid arthritis disease pathway rheumatic arthritis pathway kegg:05323
 	disease pathway complex human diseases disease
 human gonadal sex determination
+-----
+	human t-lymphotropic virus type 1 infection pathway htlv-1 infection pathway kegg:05166
+	genito-urinary system and sex hormones drug pathway 
+	altered sex steroids signaling pathway 
+	sex steroids signaling pathway 
 	disease pathway complex human diseases disease
 hiv-1 interactions with t cell signaling pathway
-	c chemokine mediated signaling pathway 
+-----
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	central obesity with hypertension pathway 
+	congenital hemidysplasia with ichthyosiform erythroderma and limb defects pathway congenital hemidysplasia with ichthyosiform erythroderma and limb defects disease pathway smp:00387 child syndrome pathway
+	3-methylglutaconic aciduria type 3 pathway autosomal recessive optic atrophy plus syndrome pathway 3-methylglutaconic aciduria type iii pathway costeff optic atrophy syndrome pathway autosomal recessive optic atrophy type 3 pathway type iii 3-methylglutaconic aciduria disease pathway iraqi-jewish optic atrophy plus pathway infantile optic atrophy with chorea and spastic paraplegia pathway costeff syndrome pathway type iii 3-methylglutaconic aciduria pathway mga3 pathway costeff syndrome disease pathway smp:00140
+	t cell receptor signaling pathway in cd8+ t cells 
+	protein modification pathway via conjugation with ubiquitin and ubiqutin-like molecules 
+	altered visual phototransduction pathway diseases associated with visual transduction
 hh pathway of drosophila signaling pathways
-	c chemokine mediated signaling pathway 
+-----
 hgf signaling in keratinocytes
-	c chemokine mediated signaling pathway 
+-----
 hcc1954 breast cell line short-term erbb network
+-----
 	breast cancer pathway breast neoplasm
 hcc1954 breast cell line long-term erbb network
+-----
+	long term depression long-term synaptic depression ltd
+	long term potentiation long-term potentiation ltp long-term synaptic potentiation
 	breast cancer pathway breast neoplasm
 guard cell abscisic acid signaling
-	c chemokine mediated signaling pathway 
+-----
+	mefenamic acid pharmacodynamics pathway smp:00109
+	wolman disease pathway acid esterase deficiency pathway acid lipase deficiency pathway wolman's disease pathway wolman's or triglyceride storage type iii disease pathway wolman xanthomatosis pathway xanthomatosis, familial pathway smp:00319 smp:00511 lysosomal acid lipase deficiency pathway (wolman type)
+	gamma-aminobutyric acid metabolic pathway gaba metabolism gaba synthesis, release, reuptake and degradation gamma-aminobutyric acid metabolic process
+	hydrophilic amino acid metabolic pathway 
+	primary bile acid biosynthetic pathway kegg:00120
+	linoleic acid metabolic pathway linoleic acid metabolic process linoleic acid (la) metabolism
+	secondary bile acid biosynthetic pathway 
+	aminocaproic acid pharmacodynamics pathway smp:00286
+	hydrophobic amino acid biosynthetic pathway 
+	mefenamic acid pharmacokinetics pathway 
+	valine, leucine and isoleucine degradation pathway branched-chain amino acid catabolic process branched-chain amino acid catabolism
+	amino acid neurotransmitter metabolic pathway 
+	folate metabolic pathway folic acid metabolic process vitamin b9 metabolic pathway
+	phytanic acid degradation pathway smp:00450
+	salicylic acid pharmacokinetics pathway 
+	hydrophilic amino acid biosynthetic pathway 
+	n-acetylglucosamine, n-acetylmannosamine and n-acetylneuraminic acid dissimilation pathway 
+	salicylic acid pharmacodynamics pathway smp:00709
+	arachidonic acid metabolic pathway arachidonic acid metabolism arachidonic acid metabolic process arachidonic acid cascade
+	salicylic acid drug pathway 
+	etacryninc acid drug pathway 
+	tiaprofenic acid pharmacodynamics pathway smp:00705
+	mycophenolic acid pharmacodynamics pathway 
+	abscisic acid metabolic pathway abscisic acid metabolic process
+	abscisic acid metabolic pathway abscisic acid metabolic process
+	clavulanic acid biosynthetic pathway clavulanic acid biosynthetic process
+	abscisic acid biosynthetic pathway abscisic acid biosynthetic process
+	abscisic acid biosynthetic pathway abscisic acid biosynthetic process
+	aminocaproic acid pharmacokinetics pathway 
+	folic acid deficiency pathway 
+	lipoic acid metabolic pathway lipoate metabolic process
+	gaba aminotransferase deficiency pathway gamma aminobutyric acid transaminase deficiency pathway smp:00351 gaba transaminase deficiency pathway
+	fatty acid alpha degradation pathway fatty acid alpha oxidation pathway
+	valproic acid pharmacodynamics pathway valproate pharmacodynamics pathway
+	tiaprofenic acid pharmacokinetics pathway 
+	valproic acid pharmacokinetics pathway smp:00635 valproate pharmacokinetics pathway
+	ascorbic acid metabolic pathway vitamin c metabolic pathway l-ascorbic acid metabolic process vitamin c (ascorbate) metabolism
+	unsaturated fatty acid biosynthetic pathway unsaturated fatty acid biosynthetic process
+	amino acid biosynthetic pathway amino acid biosynthetic process
+	mycophenolic acid pharmacokinetics pathway smp:00652
+	unsaturated fatty acid degradation pathway 
+	aromatic l-amino acid decarboxylase deficiency pathway aromatic amino acid decarboxylase deficiency pathway dopa decarboxylase deficiency pathway smp:00170
+	fatty acid beta degradation pathway smp:00482 smp:00480 smp:00481 fatty acid beta oxidation pathway smp:00052
+	cytochrome p450 monooxygenase mediated pathway of arachidonic acid metabolism 
+	hydrophilic amino acid degradation pathway 
+	valproic acid drug pathway valproate drug pathway
+	3-chloroacrylic acid degradation pathway 
+	hydrophobic amino acid degradation pathway 
+	selenoamino acid metabolic pathway selenocompound metabolic pathway selenoamino acid metabolism
+	fatty acid metabolic pathway fatty acid metabolic process fatty acid metabolism
+	duplicated selenoamino acid metabolism term 
+	altered hydrophobic amino acid metabolic pathway 
+	tranexamic acid drug pathway 
+	tiaprofenic acid drug pathway 
+	duplicated term - selenoamino acid metabolism 
+	glutathione conjugates processing - the mercapturic acid pathway 
+	fatty acid elongation pathway fatty acid elongation
+	citric acid cycle pathway tca cycle pathway tricarboxylic acid cycle krebs cycle pathway tricarboxylic acid cycle pathway citric acid cycle (tca cycle)
+	lipoxygenase mediated pathway of arachidonic acid metabolism 
+	alpha-linolenic acid metabolic pathway alpha-linolenic acid (ala) metabolism alpha-linolenic acid metabolic process
+	inborn error amino acid transport disorder pathway 
+	amino acid metabolic pathway cellular amino acid metabolic process
+	cyclooxygenase mediated pathway of arachidonic acid metabolism 
+	acid and base sensing signaling pathway 
+	sialic acid storage disease pathway smp:00240 salla disease pathway infantile sialic acid storage disease pathway
+	cyanoamino acid metabolic pathway cyanoamino acid metabolic process
+	retinoic acid signaling pathway ra signaling pathway retinoic acid receptor signaling pathway signaling by retinoic acid
+	congenital bile acid synthesis defect pathway smp:00314 smp:00318
+	hydrophobic amino acid metabolic pathway 
+	inborn error of amino acid metabolism pathway inborn error of amino acid metabolism disease pathway
+	bile acid biosynthetic pathway bile acid biosynthetic process
+	bile acid transport pathway kegg:04976
+	acetylsalicylic acid pharmacodynamics pathway aspirin pharmacodynamics pathway smp:00083
+	altered citric acid cycle pathway 
+	retinoic acid metabolic pathway ra metabolic pathway retinoic acid metabolic process
+	amino acid metabolic pathway (kegg) 
+	etacrynic acid pharmacokinetics pathway 
+	aminocaproic acid drug pathway 6-aminohexanoic acid drug pathway
+	etacrynic acid pharmacodynamics pathway smp:00097
+	mefenamic acid drug pathway 
+	fatty acid biosynthetic pathway fatty acid biosynthetic process
+	fatty acid degradation pathway fatty acid catabolic process
+	pantothenic acid metabolic pathway vitamin b5 metabolic pathway pantothenate metabolic process vitamin b5 (pantothenate) metabolism
+	bile acid signaling pathway 
+	isovaleric acidemia pathway isovaleryl-coa dehydrogenase deficiency pathway isovaleric aciduria pathway isovaleric acid coa dehydrogenase deficiency pathway isovaleric acidemia disease pathway smp:00524 smp:00238 isovaleric aciduria disease pathway
+	gamma-aminobutyric acid signaling pathway gaba receptor activation
+	mycophenolic acid drug pathway 
+	acetylsalicylic acid drug pathway aspirin drug pathway
+	fatty acid omega degradation pathway fatty acid omega oxidation pathway
+	tranexamic acid pharmacokinetics pathway 
+	acetylsalicylic acid pharmacokinetics pathway aspirin pharmacokinetics pathway
+	altered amino acid metabolic pathway 
+	gaucher's disease pathway gaucher disease pathway glocucerebrosidase deficiency pathway lipoid histiocytosis (kerasin type) pathway glucosylceramide beta-glucosidase deficiency pathway acid beta-glucosidase deficiency pathway kerasin thesaurismosis pathway smp:00349
+	tranexamic acid pharmacodynamics pathway smp:00287
+	special amino acid metabolic pathway 
+	c5-branched dibasic acid metabolic pathway 
+	amino acid degradation pathway cellular amino acid catabolic process
 glucose repression signaling 2009
-	c chemokine mediated signaling pathway 
+-----
+	glucose transport pathway cellular hexose transport
+	glucose utilization pathway 
+	sodium-glucose cotransporter mediated glucose transport pathway sglt mediated glucose transport pathway
+	glucose metabolism disease pathway 
+	facilitative sugar transporter mediated glucose transport pathway glut mediated glucose transport pathway
+	glucose conversion pathway 
+	altered insulin responsive facilitative sugar transporter mediated glucose transport pathway 
+	glucose storage pathway 
+	uridine diphosphate glucose metabolic pathway udp-glucose metabolic pathway udp-glucose metabolic process
+	glucose biosynthesis pathway gluconeogenesis
+	glucose homeostasis pathway glucose homeostasis
+	glucose reduction pathway 
+	altered sodium-glucose cotransporter mediated glucose transport pathway 
+	altered facilitative sugar transporter mediated glucose transport pathway 
+	altered glucose transport pathway 
+	altered glucose homeostasis pathway 
+	glucose oxidation pathway 
+	insulin responsive facilitative sugar transporter mediated glucose transport pathway pid:200196
 fgf pathway of drosophila signaling pathways
-	c chemokine mediated signaling pathway 
+-----
+	altered fibroblast growth factor signaling pathway altered fgf signaling pathway
+	endocrine fibroblast growth factor signaling pathway endocrine fgf signaling pathway fibroblast growth factor subfamily 19 signaling pathway
+	paracrine fibroblast growth factor signaling pathway paracrine fgf signaling pathway canonical fibroblast growth factor signaling pathway
+	intracrine fibroblast growth factor signaling pathway intracrine fgf signaling pathway intracellular fibroblast growth factor signaling pathway intracellular fgf signaling pathway
+	altered intracrine fibroblast growth factor signaling pathway altered intracrine fgf signaling pathway
+	altered paracrine fibroblast growth factor signaling pathway altered paracrine fgf signaling pathway altered canonical fibroblast growth factor signaling pathway
+	altered endocrine fibroblast growth factor signaling pathway altered endocrine fgf signaling pathway
+	fibroblast growth factor signaling pathway signaling by fgfr fgf signaling pathway fibroblast growth factor receptor signaling pathway
 fanconi anemia and checkpoint recovery
-	altered pathway pertinent to dna replication and repair, cell cycle, maintenance of genomic integrity, rna and protein biosynthesis 
+-----
+	g2/m dna replication checkpoint pathway g2/m dna replication checkpoint
+	interstrand cross link repair pathway fanconi anemia pathway icl repair pathway interstrand cross-link repair
+	interstrand cross link repair pathway fanconi anemia pathway icl repair pathway interstrand cross-link repair
+	g2/m dna damage checkpoint pathway mitotic g2 dna damage checkpoint signaling g2/m dna damage checkpoint
+	g2/m checkpoint pathway g2/m checkpoints
+	pyruvate kinase deficiency of red cells pathway hemolytic anemia due to red cell pyruvate kinase deficiency pathway pyruvate kinase deficiency of erythrocyte pathway pyruvate kinase deficiency pathway pk deficiency pathway smp:00559
+	fanconi syndrome pathway fanconi syndrome pathway smp:00572 fanconi-bickel syndrome pathway
+	p53-dependent g1/s dna damage checkpoint pathway p53-dependent g1/s dna damage checkpoint atm pathway
+	p53-independent g1/s dna damage checkpoint pathway p53-independent g1/s dna damage checkpoint
+	cell cycle checkpoint pathway cell cycle checkpoint signaling cell cycle checkpoints
+	g1/s dna damage checkpoint pathway g1/s dna damage checkpoints
+	mitotic spindle checkpoint pathway mitotic spindle checkpoint signaling mitotic spindle checkpoint
 fa brca pathway
-	brain-derived neurotrophic factor signaling pathway brain-derived neurotrophic factor receptor signaling pathway bdnf activates ntrk2 (trkb) signaling bdnf signaling pathway
-escherichia coli w
-	pathogenic escherichia coli infection pathway pathogenic e. coli infection pathway kegg:05130
-escherichia coli umnk88
-	pathogenic escherichia coli infection pathway pathogenic e. coli infection pathway kegg:05130
-escherichia coli str. k-12 substr. mg1655
-	pathogenic escherichia coli infection pathway pathogenic e. coli infection pathway kegg:05130
-escherichia coli o139:h28 str. e24377a
-	pathogenic escherichia coli infection pathway pathogenic e. coli infection pathway kegg:05130
-escherichia coli atcc 8739
-	pathogenic escherichia coli infection pathway pathogenic e. coli infection pathway kegg:05130
+-----
 erbb (1-4) receptor signaling
-	c chemokine mediated signaling pathway 
+-----
 egfr & erbb signaling
-	c chemokine mediated signaling pathway 
+-----
+	epidermal growth factor/neuregulin signaling pathway signaling by egfr epidermal growth factor receptor signaling pathway egf/neuregulin signaling pathway
+	class i major histocompatibility complex pathway class i mhc mediated antigen processing & presentation antigen processing and presentation of peptide antigen via mhc class i mhc class i antigen presentation pathway class i mhc pathway
 differentiation of t lymphocytes
-	maturity-onset diabetes of the young pathway mason-type diabetes pathway mody pathway maturity onset diabetes of the young pathway kegg:04950
+-----
+	synaptic differentiation pathway 
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	postsynaptic differentiation pathway 
+	presynaptic differentiation pathway 
+	t cell receptor signaling pathway in cd8+ t cells 
 death receptor signaling
-	c chemokine mediated signaling pathway 
+-----
+	non-apoptotic cell death pathway 
+	non-programmed cell death pathway 
+	programmed cell death pathway programmed cell death
+	extrinsic apoptotic pathway extrinsic apoptotic signaling pathway caspase activation via extrinsic apoptotic signalling pathway death receptor mediated apoptotic pathway
+	altered apoptotic cell death pathway 
+	altered non-apoptotic cell death pathway 
+	apoptotic cell death pathway apoptotic process programmed cell death pathway apoptosis
+	altered cell death pathway 
+	cell death pathway cell death
+	altered programmed cell death pathway 
+	necrosis pathway necrotic cell death
 cortical area development
+-----
+	signaling pathway pertinent to development 
 	altered signaling pathway pertinent to development 
 colitis-associated colon cancer
+-----
+	thyroid cancer pathway malignant tumor of thyroid gland pathway malignant neoplasm of thyroid gland pathway kegg:05216 thyroid neoplasm pathway
+	nervous system and nerve tissue cancer pathway nervous system and nerve tissue neoplasm pathway
+	urinary bladder cancer pathway bladder cancer pathway kegg:05219 bladder neoplasm pathway
+	endocrine gland cancer pathway endocrine gland neoplasm pathway
+	head and neck cancer pathway head and neck neoplasm pathway
+	gastric cancer pathway stomach cancer pathway gastric neoplasm pathway stomach neoplasm pathway
+	ovarian cancer pathway ovarian neoplasm pathway
+	cervical cancer pathway cervical neoplasm pathway
+	liver cancer pathway hepatic cancer pathway liver neoplasm pathway hepatic neoplasm pathway
+	intestinal cancer pathway intestinal neoplasm pathway
+	gastrointestinal cancer pathway gastrointestinal neoplasm pathway
+	lung cancer pathway lung neoplasm pathway
+	small cell lung carcinoma pathway oat cell carcinoma of lung pathway small cell carcinoma of lung pathway small cell lung cancer pathway small cell neuroendocrine carcinoma of lung pathway kegg:05222 sclc pathway small cell lung neoplasm pathway
+	skin cancer pathway skin neoplasm pathway
+	parathyroid cancer pathway 
+	colorectal cancer pathway kegg:05210 colorectal neoplasm pathway
+	respiratory tract cancer pathway respiratory tract neoplasm pathway
+	bone cancer pathway bone neoplasm pathway
+	urogenital cancer pathway urinogenital cancer pathway genitourinary cancer pathway
+	non-small cell lung carcinoma pathway non-small cell lung cancer pathway nsclc pathway kegg:05223 non-small cell lung neoplasm pathway
+	pancreatic cancer pathway malignant neoplasm of pancreas pathway kegg:05212 pancreatic neoplasm pathway
+	renal cell carcinoma pathway hypernephroma pathway renal cell cancer pathway adenocarcinoma of kidney pathway rcc pathway kegg:05211
+	cancer pathway neoplasm pathway
+	digestive system cancer pathway digestive system neoplasm pathway gastrointestinal neoplasm pathway
+	prostate cancer pathway malignant tumor of the prostate pathway familial prostate cancer pathway hereditary prostate cancer pathway prostatic cancer pathway kegg:05215 prostate neoplasm pathway
+	endometrial cancer pathway kegg:05213 endometrial neoplasm pathway
+	thoracic cancer pathway thoracic neoplasm pathway
 	breast cancer pathway breast neoplasm
 cholesterol regulatory pathway
-	brain-derived neurotrophic factor signaling pathway brain-derived neurotrophic factor receptor signaling pathway bdnf activates ntrk2 (trkb) signaling bdnf signaling pathway
+-----
+	altered regulatory pathway 
+	cholesterol biosynthetic pathway cholesterol biosynthesis cholesterol biosynthetic process
+	altered regulatory pathway pertinent to the brain 
+	altered cholesterol biosynthetic pathway 
+	regulatory pathway pertinent to the brain 
+	cholesterol metabolic pathway cholesterol metabolic process
+	cholesterol transport pathway cholesterol transport
+	altered reverse cholesterol transport pathway altered rct pathway
+	reverse cholesterol transport pathway rct pathway selective cholesterol uptake pathway reverse cholesterol transport
+	altered cholesterol transport pathway 
+	regulatory pathway 
+	cholesterol ester storage disease pathway smp:00508
+	sterol regulatory element-binding protein signaling pathway srebp signaling pathway
 cell cycle transcription by coupled cdk and network oscillators
+-----
+	prokaryotic rna polymerase transcription pathway 
+	notch signaling pathway signaling by notch
+	rna polymerase ii transcription initiation pathway transcription initiation at rna polymerase ii promoter rna polymerase ii transcription initiation
+	rna polymerase i transcription elongation pathway rna polymerase i chain elongation transcription elongation by rna polymerase i
+	rna polymerase i transcription elongation pathway rna polymerase i chain elongation transcription elongation by rna polymerase i
+	rna polymerase transcription pathway 
+	g protein mediated signaling pathway g protein-coupled receptor signaling pathway heterotrimeric g protein mediated signaling pathway signaling by gpcr
+	b cell receptor signaling pathway signaling by the b cell receptor (bcr) bcr signaling pathway
+	rna polymerase ii transcription termination pathway termination of rna polymerase ii transcription rna polymerase ii transcription termination
+	altered transcription factor mediated signaling pathway 
+	rna polymerase i transcription initiation pathway transcription initiation at rna polymerase i promoter rna polymerase i transcription initiation
+	activin signaling pathway activin receptor signaling pathway signaling by activin
+	platelet-derived growth factor signaling pathway signaling by pdgf pdgf signaling pathway platelet-derived growth factor receptor signaling pathway
+	hippo signaling pathway signaling by hippo hippo signaling
+	rna polymerase iii transcription initiation pathway transcription initiation at rna polymerase iii promoter rna polymerase iii transcription initiation
+	rna polymerase ii transcription elongation pathway transcription elongation by rna polymerase ii promoter rna polymerase ii transcription elongation
+	rna polymerase ii transcription elongation pathway transcription elongation by rna polymerase ii promoter rna polymerase ii transcription elongation
+	rna polymerase v transcription pathway 
+	transforming growth factor-beta superfamily mediated signaling pathway tgf-beta superfamily mediated signaling pathway signaling by tgf-beta family members
+	rna polymerase iv transcription pathway 
+	insulin signaling pathway signaling by insulin receptor insulin receptor signaling pathway
+	interleukin mediated signaling pathway signaling by interleukins
+	eukaryotic rna polymerase transcription pathway dna-templated transcription generic transcription pathway
+	scatter factor/hepatocyte growth factor signaling pathway hepatocyte growth factor receptor signaling pathway sf/hgf signaling pathway signaling by met
+	rna polymerase i transcription pathway transcription by rna polymerase i rna polymerase i transcription
+	rna polymerase i transcription pathway transcription by rna polymerase i rna polymerase i transcription
+	rna polymerase ii transcription pathway rna polymerase ii transcription transcription by rna polymerase ii
+	rna polymerase ii transcription pathway rna polymerase ii transcription transcription by rna polymerase ii
+	rna polymerase iii transcription pathway rna polymerase iii transcription transcription by rna polymerase iii
+	rna polymerase iii transcription pathway rna polymerase iii transcription transcription by rna polymerase iii
+	nodal signaling pathway signaling by nodal
+	transcription pathway via transcription factor mediated signaling 
+	altered transcription pathway via transcription factor mediated signaling 
+	microrna pathway microrna (mirna) biogenesis production of mirnas involved in gene silencing by mirna mirna pathway
+	stem cell factor signaling pathway scf signaling pathway steel factor signaling pathway signaling by scf-kit kit signaling pathway
+	rna polymerase iii transcription termination pathway rna polymerase iii transcription termination termination of rna polymerase iii transcription
+	altered transcription pathway 
+	retinoic acid signaling pathway ra signaling pathway retinoic acid receptor signaling pathway signaling by retinoic acid
+	rna polymerase iii transcription elongation pathway rna polymerase iii chain elongation transcription elongation by rna polymerase iii promoter
+	rna polymerase iii transcription elongation pathway rna polymerase iii chain elongation transcription elongation by rna polymerase iii promoter
+	mitochondrial transcription pathway mitochondrial transcription transcription from mitochondrial promoters
+	hypoxia inducible factor pathway hif pathway regulation of gene expression by hypoxia-inducible factor
+	transforming growth factor-beta signaling pathway signaling by tgf-beta receptor complex transforming growth factor beta receptor signaling pathway
+	epidermal growth factor/neuregulin signaling pathway signaling by egfr epidermal growth factor receptor signaling pathway egf/neuregulin signaling pathway
+	bone morphogenetic proteins signaling pathway signaling by bmp bmp signaling pathway
+	hedgehog signaling pathway smoothened signaling pathway signaling by hedgehog
+	vascular endothelial growth factor signaling pathway signaling by vegf vegf signaling pathways vascular endothelial growth factor receptor signaling pathway
+	wnt signaling pathway signaling by wnt
+	rna polymerase i transcription termination pathway termination of rna polymerase i transcription rna polymerase i transcription termination
+	transcription pathway generic transcription pathway transcription, dna-templated
+	leptin system pathway leptin-mediated signaling pathway signaling by leptin
+	fibroblast growth factor signaling pathway signaling by fgfr fgf signaling pathway fibroblast growth factor receptor signaling pathway
 	transcription factor mediated signaling pathway 
 cd4+ t cell differentiation and plasticity
-	necrosis pathway necrotic cell death
+-----
+	synaptic differentiation pathway 
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	t cell receptor signaling pathway in cd4+ t cells 
+	glutamate signaling pathway via ampa receptor ionotropic glutamate receptor signaling pathway glutamate binding, activation of ampa receptors and synaptic plasticity
+	postsynaptic differentiation pathway 
+	presynaptic differentiation pathway 
+	t cell receptor signaling pathway in cd8+ t cells 
 cd4+ t cell differentiation
-	necrosis pathway necrotic cell death
+-----
+	synaptic differentiation pathway 
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	t cell receptor signaling pathway in cd4+ t cells 
+	postsynaptic differentiation pathway 
+	presynaptic differentiation pathway 
+	t cell receptor signaling pathway in cd8+ t cells 
 cd4 t cell signaling
-	c chemokine mediated signaling pathway 
+-----
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	t cell receptor signaling pathway in cd8+ t cells 
 cd4 t cell dynamics - workshop v2
-	necrosis pathway necrotic cell death
+-----
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	t cell receptor signaling pathway in cd4+ t cells 
+	altered mitochondria dynamics pathway 
+	mitochondria dynamics pathway 
+	t cell receptor signaling pathway in cd8+ t cells 
 cardiac development
+-----
+	signaling pathway pertinent to development 
 	altered signaling pathway pertinent to development 
 budding yeast cell cycle 2009
-	reductive carboxylate cycle - co2 fixation pathway 
+-----
 budding yeast cell cycle
-	reductive carboxylate cycle - co2 fixation pathway 
+-----
 bt474 breast cell line short-term erbb network
+-----
 	breast cancer pathway breast neoplasm
 bt474 breast cell line long-term erbb network
+-----
+	long term depression long-term synaptic depression ltd
+	long term potentiation long-term potentiation ltp long-term synaptic potentiation
 	breast cancer pathway breast neoplasm
+bordatella bronchiseptica
+-----
 body segmentation in drosophila 2013
+-----
+	ketone bodies metabolic pathway ketone body metabolism cellular ketone body metabolic process
+	krabbe disease pathway globoid cell leukodystrophy disease pathway krabbe's disease pathway beta galactocerebrosidase deficiency pathway globoid cell leukodystrophy pathway galactosylceramide beta-galactosidase deficiency pathway diffuse globoid body sclerosis pathway krabbe's leukodystrophy pathway smp:00348
 	ketone bodies degradation pathway ketone body catabolic process utilization of ketone bodies
 b cell differentiation
+-----
+	synaptic differentiation pathway 
+	hepatitis b virus infection pathway kegg:05161
+	b cell receptor signaling pathway signaling by the b cell receptor (bcr) bcr signaling pathway
+	nuclear factor kappa b signaling pathway nf-kb signaling pathway pid:200048 kegg:04064 pid:200031 nf-kappab signaling pathway pid:200021
+	postsynaptic differentiation pathway 
+	presynaptic differentiation pathway 
+	altered nuclear factor kappa b signaling pathway altered nf-kb signaling pathway altered nf-kappab signaling pathway
+	amphotericin b pharmacodynamics pathway 
+	amphotericin b pharmacokinetics pathway 
 	amphotericin b drug pathway 
 b bronchiseptica and t retortaeformis coinfection
+-----
+	hepatitis b virus infection pathway kegg:05161
+	t cell receptor signaling pathway tcr signaling pathway tcr signaling
+	b cell receptor signaling pathway signaling by the b cell receptor (bcr) bcr signaling pathway
+	t cell receptor signaling pathway in cd4+ t cells 
+	nuclear factor kappa b signaling pathway nf-kb signaling pathway pid:200048 kegg:04064 pid:200031 nf-kappab signaling pathway pid:200021
+	t cell receptor signaling pathway in cd8+ t cells 
+	altered nuclear factor kappa b signaling pathway altered nf-kb signaling pathway altered nf-kappab signaling pathway
+	amphotericin b pharmacodynamics pathway 
+	amphotericin b pharmacokinetics pathway 
 	amphotericin b drug pathway 
 aurora kinase a in neuroblastoma
+-----
+	vitamin a deficiency pathway deficiency of vitamin a pathway hypovitaminosis a pathway smp:00336
+	forkhead class a signaling pathway pid:200226 pid:200087 foxa signaling pathway
+	calcium/calmodulin dependent kinase signaling pathway camk signaling pathway calmodulin dependent kinase signaling pathway
+	calcium/calmodulin dependent kinase 1 signaling pathway 
+	altered tyrosine-specific protein kinase mediated signaling pathway 
+	altered mitogen activated protein kinase pathway altered mapk signaling pathway
+	calcium/calmodulin dependent kinase 2 signaling pathway camkii signaling pathway camk2 signaling pathway
+	protein kinase a (pka) signaling pathway camp/pka signaling pathway camp-dependent protein kinase a signaling pathway protein kinase a signaling
+	protein kinase a (pka) signaling pathway camp/pka signaling pathway camp-dependent protein kinase a signaling pathway protein kinase a signaling
+	calcium/calmodulin dependent kinase signaling cascade camk signaling cascade
+	metachromatic leukodystrophy pathway sulfatide lipoidosis pathway arylsulfatase a deficiency pathway metachromatic leukodystrophy disease pathway scholz cerebral sclerosis pathway deficiency of cerebroside-sulfatase pathway smp:00347 mld pathway
+	altered vitamin a homeostasis 
+	pyruvate kinase deficiency of red cells pathway hemolytic anemia due to red cell pyruvate kinase deficiency pathway pyruvate kinase deficiency of erythrocyte pathway pyruvate kinase deficiency pathway pk deficiency pathway smp:00559
+	vitamin a and metabolites signaling pathway 
+	influenza a pathway influenza a virus infection pathway kegg:05164
+	calcium/calmodulin dependent kinase 4 signaling pathway 
+	tyrosine-specific protein kinase mediated signaling pathway 
+	altered vitamin a and metabolites signaling pathway 
+	bisphenol a degradation pathway bisphenol a catabolic process
+	bisphenol a response pathway response to bisphenol a  bpa response pathway
+	mevalonic aciduria pathway mevalonate kinase deficiency pathway mevalonic aciduria disease pathway hyperimmunoglobulinemia d disease pathway hyper-igd syndrome pathway smp:00510 smp:00509
+	kinase mediated signaling pathway 
+	serine/threonine-specific kinase mediated signaling pathway 
+	protein kinase c (pkc) signaling pathway protein kinase c signaling
+	altered kinase mediated signaling pathway 
+	tay-sachs disease pathway hexosaminidase a deficiency pathway smp:00390
+	altered serine/threonine-specific kinase mediated signaling pathway 
+	altered c-jun n-terminal kinase mapk signaling pathway altered jnk signaling pathway
+	mitogen activated protein kinase signaling pathway mapk family signaling cascades mapk signaling pathway mapk cascade
+	adenosine monophosphate-activated protein kinase (ampk) signaling pathway 5'amp-activated protein kinase ampk signaling pathway
+	retinoid metabolic pathway vitamin a metabolic pathway retinoid metabolic process retinoid metabolism and transport
+	coenzyme a metabolic pathway coenzyme a metabolic process
+	coenzyme a biosynthetic pathway coenzyme a biosynthetic process coenzyme a biosynthesis
+	glycerol kinase deficiency pathway gkd pathway gk deficiency pathway hyperglycerolemia disease pathway hyperglycerolemia pathway glycerol kinase deficiency pathway smp:00187
 	vitamin a homeostasis 
 arabidopsis thaliana cell cycle
-	reductive carboxylate cycle - co2 fixation pathway 
+-----
 apoptosis network
+-----
+	intrinsic apoptotic pathway intrinsic apoptotic signaling pathway intrinsic pathway for apoptosis
 	apoptotic cell death pathway apoptotic process programmed cell death pathway apoptosis
 igvh mutation in chronic lymphocytic leukemia.
+-----
+	chronic myeloid leukemia pathway kegg:05220
+	lymphoid leukemia pathway lymphocytic leukemia pathway
+	allograft rejection pathway chronic allograft dysfunction pathway kegg:05330
 	hepatitis c pathway nanbh pathway hepatitis nona nonb pathway hepatitis c virus infection pathway viral hepatitis c pathway chronic hepatitis c pathway hepatitis c infection pathway kegg:05160
 bortezomib responses in u266 human myeloma cells
+-----
+	bortezomib pharmacokinetics pathway 
+	bortezomib drug pathway 
+	human t-lymphotropic virus type 1 infection pathway htlv-1 infection pathway kegg:05166
+	t cell receptor signaling pathway in cd4+ t cells 
+	pyruvate kinase deficiency of red cells pathway hemolytic anemia due to red cell pyruvate kinase deficiency pathway pyruvate kinase deficiency of erythrocyte pathway pyruvate kinase deficiency pathway pk deficiency pathway smp:00559
+	t cell receptor signaling pathway in cd8+ t cells 
+	bortezomib pharmacodynamics pathway 
 	disease pathway complex human diseases disease

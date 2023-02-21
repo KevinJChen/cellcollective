@@ -5,9 +5,17 @@ import os
 def main():
 
     cc_names = []
+    bool_cc_names = []
+    meta_cc_names = []
     # read txt file -> names of cell collective models
     with open('cc_name.txt') as file:
-        cc_names = [line.rstrip().lower() for line in file]
+        for line in file:
+            if line[-4:] == ', B\n':
+                bool_cc_names.append(line[:-4].rstrip().lower())
+            elif line[-4:] == ", M\n":
+                meta_cc_names.append(line[:-4].rstrip().lower())
+            else:
+                continue
 
     pathway_labels = []
     # read csv file -> pathway ontology
@@ -22,56 +30,25 @@ def main():
                 pathway_labels.append((row[1] + " " + row[2]).replace("|", " ").lower())
                 line_count += 1
 
-    # pathway_keywords = []
-    # # pathway_keywords -> tokenized pathway labels
-    # for label in pathway_labels:
-    #     keyword = label.replace("(", "").replace(")", "")
-    #     # remove general words (pathway, process, drug)
-    #     keyword = keyword.replace("pathway", "").replace("process", "").replace("drug", "")
-    #     pathway_keywords.append(keyword)
-
-    blacklist = ["pathway", "of", "drug", "in", "and"]
+    blacklist = ["pathway", "of", "drug", "in", "and", "-", "signaling", "pathways", "cell", "cycle", "receptor", "the", "from"]
     ccTOpathway= {}
     # dict -> matches cc titles to possible related pathways from pathway ontology
-    for name in cc_names:
+    # key: cc_name
+    # value: list of possible pathways
+    for name in bool_cc_names:
+        ccTOpathway[name] = []
         tokenized_name = name.split(" ")
         for label in pathway_labels:
             tokenized_label = label.split(" ")
-            if "pathway" in tokenized_label:
-                tokenized_label.remove("pathway")
-            if "of" in tokenized_label:
-                tokenized_label.remove("of")
-            if "drug" in tokenized_label:
-                tokenized_label.remove("drug")
-            if "in" in tokenized_label:
-                tokenized_label.remove("in")
-            if "and" in tokenized_label:
-                tokenized_label.remove("and")
-            if "-" in tokenized_label:
-                tokenized_label.remove("-")
             for term in tokenized_name:
-                if term in tokenized_label:
-                    ccTOpathway[name] = label
-
-    print(ccTOpathway)
-    # for key, value in ccTOpathway.items():
-    #     print(key + ": " + value)
+                if term in tokenized_label and term not in blacklist:
+                    ccTOpathway[name].append(label)
 
     f = open("ccTOpathway.txt", "w+")
     for key, value in ccTOpathway.items():
-        f.write(key + "\n\t" + value + "\n")
-
-
-
-    # for name in cc_names:
-    #     print(name)
-    #     for word in name.split(" "):
-    #         if keyword.iskeyword(word) is False:
-    #             print(word, end=", ")
-    #     print("")
-    #     print("-----")
-
-
+        f.write(key + "\n-----\n")
+        for v in value:
+            f.write("\t" + v + "\n")
 
 if __name__ == "__main__":
     main()
