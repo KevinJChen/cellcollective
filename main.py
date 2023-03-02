@@ -1,8 +1,34 @@
 import csv
 import keyword
 import os
+import ccapi
+from keybert import KeyBERT
+
+from rake_nltk import Rake
+
 
 def main():
+
+    cc_email = "test@cellcollective.org"
+    cc_password = "test"
+
+    client = ccapi.Client()
+    # raises AuthenticationError if login credentials are invalid
+    client.auth(email=cc_email, password=cc_password)
+
+
+    # models = client.get("model", since=16, size=30)
+    #
+    # models = client.get("model", since=229, size=10)
+    #
+    # # model.default_type = type of the model
+    # counter = 0
+    # if models is None:
+    #     print('not iterable')
+    # for model in models:
+    #     counter += 1
+    #     print(model.name)
+    # print(counter)
 
     cc_names = []
     bool_cc_names = []
@@ -16,6 +42,15 @@ def main():
                 meta_cc_names.append(line[:-4].rstrip().lower())
             else:
                 continue
+
+    with open('boolean_keyword.txt', 'w') as f:
+        for name in bool_cc_names:
+            f.write(str(name) + " -> ")
+            kw_model = KeyBERT()
+            keywords = kw_model.extract_keywords(name)
+            print(keywords)
+            f.write(str(keywords) + "\n")
+    return
 
     pathway_labels = []
     # read csv file -> pathway ontology
