@@ -1,10 +1,5 @@
-import cellcollective
-import biolqm
-import requests
-import json
 from urllib.request import urlretrieve
-import glob
-import pandas as pd
+import ccapi
 
 #a simple function creating a permanent local file from the retrieved model file
 def download_local(url, path, model_id, suffix='sbml'):
@@ -12,8 +7,29 @@ def download_local(url, path, model_id, suffix='sbml'):
     filename, _ = urlretrieve(url, filename=filename)
     return filename
 
-def main():
-    print('Hello World')
+def get_models():
 
-if __name__ == "__main__":
-    main()
+    cc_email = "test@cellcollective.org"
+    cc_password = "test"
+
+    client = ccapi.Client()
+
+    # raises AuthenticationError if login credentials are invalid
+    client.auth(email=cc_email, password=cc_password)
+
+    print(list(ccapi.constant.MODELS))
+    #model = ccapi.load_model("lac-operon", client=client)
+
+    # size = number of models to retrieve
+    # since = starting from model # ...
+    models = client.get("model", since=229, size=10)
+
+    # model.default_type = type of the model
+    counter = 0
+    if models is None:
+        print('not iterable')
+    # print model name
+    for model in models:
+        counter += 1
+        print(model.name)
+    print(counter)
