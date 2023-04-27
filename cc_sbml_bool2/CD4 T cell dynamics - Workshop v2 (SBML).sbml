@@ -1,0 +1,1062 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" layout:required="false" level="3" qual:required="true" version="1" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
+  <model id="M241389" metaid="_91761a6d-667b-4d83-8d45-d91a51d08536" name="CD4 T cell dynamics - Workshop v2">
+    <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_91761a6d-667b-4d83-8d45-d91a51d08536">
+	<dc:creator>
+	<rdf:Bag>
+	<rdf:li rdf:parseType="Resource">
+	<vCard:N rdf:parseType="Resource">
+	<vCard:Family>Helikar</vCard:Family>
+	<vCard:Given>Tomas</vCard:Given>
+	</vCard:N>
+	<vCard:EMAIL>thelikar2@unl.edu</vCard:EMAIL>
+	<vCard:ORG rdf:parseType="Resource">
+	<vCard:Orgname>University of Nebraska - Lincoln</vCard:Orgname>
+	</vCard:ORG>
+	</rdf:li>
+	</rdf:Bag>
+	</dc:creator>
+	<dcterms:created rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:created>
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:52:22Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	<bqbiol:isDescribedBy>
+	<rdf:Bag>
+	<rdf:li rdf:resource="urn:miriam:pubmed:3423523"/>
+	</rdf:Bag>
+	</bqbiol:isDescribedBy>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+      <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <layout:layout layout:name="My layout">
+        <layout:listOfAdditionalGraphicalObjects>
+          <layout:generalGlyph layout:id="S_14_glyph" layout:reference="S_14">
+            <layout:boundingBox>
+              <layout:position layout:x="0.609148494241872" layout:y="-0.8335632856068151" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_15_glyph" layout:reference="S_15">
+            <layout:boundingBox>
+              <layout:position layout:x="0.561910457389652" layout:y="-0.2991542020351538" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_2_glyph" layout:reference="S_2">
+            <layout:boundingBox>
+              <layout:position layout:x="0.6908807804701933" layout:y="-0.5628196108171986" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_13_glyph" layout:reference="S_13">
+            <layout:boundingBox>
+              <layout:position layout:x="0.26728101252216635" layout:y="-0.6318327043910225" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_8_glyph" layout:reference="S_8">
+            <layout:boundingBox>
+              <layout:position layout:x="0.5153881483685262" layout:y="-0.7548175762725803" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_7_glyph" layout:reference="S_7">
+            <layout:boundingBox>
+              <layout:position layout:x="0.33359327927058874" layout:y="-0.3062324680427255" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_10_glyph" layout:reference="S_10">
+            <layout:boundingBox>
+              <layout:position layout:x="0.6206001395393799" layout:y="-0.968050339750677" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_9_glyph" layout:reference="S_9">
+            <layout:boundingBox>
+              <layout:position layout:x="0.4982106804222644" layout:y="-0.91230899494105" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_11_glyph" layout:reference="S_11">
+            <layout:boundingBox>
+              <layout:position layout:x="0.6821527330134847" layout:y="-0.8707241821465664" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_3_glyph" layout:reference="S_3">
+            <layout:boundingBox>
+              <layout:position layout:x="0.574077830518254" layout:y="-0.08592143855705711" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_12_glyph" layout:reference="S_12">
+            <layout:boundingBox>
+              <layout:position layout:x="0.25772612917459903" layout:y="-0.12131276859491548" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_6_glyph" layout:reference="S_6">
+            <layout:boundingBox>
+              <layout:position layout:x="0.7429895986564952" layout:y="-0.8344480688577616" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_4_glyph" layout:reference="S_4">
+            <layout:boundingBox>
+              <layout:position layout:x="0.8116994704415424" layout:y="-0.48761303448674964" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_1_glyph" layout:reference="S_1">
+            <layout:boundingBox>
+              <layout:position layout:x="0.37295830998077206" layout:y="-0.9308894432109257" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_5_glyph" layout:reference="S_5">
+            <layout:boundingBox>
+              <layout:position layout:x="0.08165708272541547" layout:y="-0.5628196108171986" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+          <layout:generalGlyph layout:id="S_16_glyph" layout:reference="S_16">
+            <layout:boundingBox>
+              <layout:position layout:x="0.43952099827253654" layout:y="-0.9264655269561933" layout:z="0"/>
+            </layout:boundingBox>
+          </layout:generalGlyph>
+        </layout:listOfAdditionalGraphicalObjects>
+      </layout:layout>
+    </layout:listOfLayouts>
+    <qual:listOfQualitativeSpecies xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
+      <qual:qualitativeSpecies metaid="_9263d693-b183-4f7f-9271-a07a514f80bc" qual:compartment="extracellular" qual:constant="true" qual:id="S_1" qual:name="IL12">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Interleukin-12</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_9263d693-b183-4f7f-9271-a07a514f80bc">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_57e1d991-214b-49b5-b3ae-42878ef12c04" qual:compartment="extracellular" qual:constant="true" qual:id="S_3" qual:name="Th2 Inhibitor">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>This node inhibits Th2 cells.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_57e1d991-214b-49b5-b3ae-42878ef12c04">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_3bc510e8-c169-4454-abc1-84104ec27fcf" qual:compartment="extracellular" qual:constant="true" qual:id="S_4" qual:name="Th17 Inhibitor">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>This node inhibits Th17 cells.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_3bc510e8-c169-4454-abc1-84104ec27fcf">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_8e027b6b-ead6-4554-b61b-f68dc3a3cf0f" qual:compartment="extracellular" qual:constant="true" qual:id="S_5" qual:name="Th1 Inhibitor">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>This node inhibits Th1 cells.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_8e027b6b-ead6-4554-b61b-f68dc3a3cf0f">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="b90bd59e-10c0-4a9e-8404-2565bce22fa7" qual:compartment="extracellular" qual:constant="true" qual:id="S_6" qual:name="IL4">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Interleukin 4 [Homo sapiens (human)]</p><p>UniProt ID: P05112</p><p>Gene Name: IL4</p><p>NCBI Gene ID: 3565</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#b90bd59e-10c0-4a9e-8404-2565bce22fa7">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_4f938803-b340-4708-ab87-e72687d013ac" qual:compartment="extracellular" qual:constant="true" qual:id="S_9" qual:name="TGFb">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Transforming growth factor, beta 1 [Homo sapiens (human)]</p><p>UniProt ID: P01137</p><p>Gene Name: TGFB1</p><p>NCBI Gene ID: 7040</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_4f938803-b340-4708-ab87-e72687d013ac">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_01c55c7c-d0ad-4f86-9b8b-ef95264db8a0" qual:compartment="extracellular" qual:constant="true" qual:id="S_10" qual:name="Pathogen">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>This node represents a pathogen detected by the innate immune system.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_01c55c7c-d0ad-4f86-9b8b-ef95264db8a0">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_0a746f8d-4614-4904-a9b4-ef1fceeeb2c7" qual:compartment="extracellular" qual:constant="true" qual:id="S_11" qual:name="IL6">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Interleukin-6</p><p>Pro-inflammatory cytokine</p><p>UniProt ID: P05231</p><p>Gene ID: 3569</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_0a746f8d-4614-4904-a9b4-ef1fceeeb2c7">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="a63ac23e-b47e-4045-aa55-9d9966d811f0" qual:compartment="extracellular" qual:constant="true" qual:id="S_12" qual:name="Treg Inhibitor">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>This node inhibits Treg cells.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#a63ac23e-b47e-4045-aa55-9d9966d811f0">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_7e3827b8-7874-471d-b007-2d3a554f0874" qual:compartment="extracellular" qual:constant="true" qual:id="S_16" qual:name="IFNg">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Interferon, gamma [Homo sapiens(human)]</p><p>UniProt ID: P01579</p><p>Gene Name: IFNG</p><p>NCBI Gene ID: 3458</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+	<rdf:Description rdf:about="#_7e3827b8-7874-471d-b007-2d3a554f0874">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	<bqbiol:isDescribedBy>
+	<rdf:Bag>
+	<rdf:li rdf:resource="urn:miriam:pubmed:18725574"/>
+	</rdf:Bag>
+	</bqbiol:isDescribedBy>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_35ff533f-b090-4ff3-9224-e1175c45947f" qual:compartment="cytosol" qual:constant="false" qual:id="S_2" qual:initialLevel="0" qual:maxLevel="1" qual:name="Th17">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Th17 CD4 T Cell</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_35ff533f-b090-4ff3-9224-e1175c45947f">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_677c0b95-c709-40f4-bc2e-c7a9524d96d8" qual:compartment="cytosol" qual:constant="false" qual:id="S_7" qual:initialLevel="0" qual:maxLevel="1" qual:name="Treg">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Treg CD4 T Cell</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_677c0b95-c709-40f4-bc2e-c7a9524d96d8">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_26af3ce6-3019-4c42-a3eb-c3439af045a4" qual:compartment="cytosol" qual:constant="false" qual:id="S_8" qual:initialLevel="0" qual:maxLevel="1" qual:name="NaiveCD4TCell">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Represents, naive CD4 T cell. This cell type has the potential to differentiate into Th1, Th2, Th17, and Treg CD4 T cells.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_26af3ce6-3019-4c42-a3eb-c3439af045a4">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_8305f45a-5a19-48de-bfce-d909c22c0069" qual:compartment="cytosol" qual:constant="false" qual:id="S_13" qual:initialLevel="0" qual:maxLevel="1" qual:name="Th1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Th1 CD4 T Cell</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_8305f45a-5a19-48de-bfce-d909c22c0069">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_0ed2b744-e3f2-4262-84b0-950b42dafa4c" qual:compartment="cytosol" qual:constant="false" qual:id="S_14" qual:initialLevel="0" qual:maxLevel="1" qual:name="AntigenPresentingCell">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Represents cells such as dendritic cells and macrophages.</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_0ed2b744-e3f2-4262-84b0-950b42dafa4c">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+      <qual:qualitativeSpecies metaid="_1adf7682-5cb2-41bf-8600-04f8a7460cae" qual:compartment="cytosol" qual:constant="false" qual:id="S_15" qual:initialLevel="0" qual:maxLevel="1" qual:name="Th2">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Th2 CD4 T Cell</p></body>
+        </notes>
+        <annotation>
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+	<rdf:Description rdf:about="#_1adf7682-5cb2-41bf-8600-04f8a7460cae">
+	<dcterms:modified rdf:parseType="Resource">
+	<dcterms:W3CDTF>2022-05-25T11:51:27Z</dcterms:W3CDTF>
+	</dcterms:modified>
+	</rdf:Description>
+	</rdf:RDF>
+	</annotation>
+            </qual:qualitativeSpecies>
+    </qual:listOfQualitativeSpecies>
+    <qual:listOfTransitions xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1">
+      <qual:transition qual:id="tr_S_2">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>TGFb in conjunction with naive CD4 T cells activate Th17.</p><p>IL6 activates Th17.</p><p>Th1, Th17Inhibitor, Th2, and Treg inhibit Th17.</p><p>Th17 activates Th17.</p></body>
+        </notes>
+        <qual:listOfInputs>
+          <qual:input qual:id="tr_S_2_in_S_13" qual:qualitativeSpecies="S_13" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th1produces cytokines that inhibit Th17 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_9" qual:qualitativeSpecies="S_9" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>TGFb upregulate RORγt in naive T cells, which stimulates Th17 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_11" qual:qualitativeSpecies="S_11" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IL6 upregulate RORγt in naive T cells, which stimulates Th17 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_7" qual:qualitativeSpecies="S_7" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Treg cells inhibit Th17 T cells.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_2" qual:qualitativeSpecies="S_2" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th17 produces cytokines that further stimulate Th17 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_8" qual:qualitativeSpecies="S_8" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Naive CD4 T cells are the precursors of Th17 cells.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_15" qual:qualitativeSpecies="S_15" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th2 produces cytokines that inhibit Th17 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_2_in_S_4" qual:qualitativeSpecies="S_4" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th17Inhibitor is specifically an inhibitor for Th17 differentiation.</p></body>
+            </notes>
+          </qual:input>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="S_2" qual:transitionEffect="assignmentLevel"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="0">
+          </qual:defaultTerm>
+          <qual:functionTerm qual:resultLevel="1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <or/>
+                <apply>
+                  <and/>
+                  <apply>
+                    <eq/>
+                    <ci> S_2 </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <eq/>
+                            <ci> S_7 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_15 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_4 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_13 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <eq/>
+                      <ci> S_9 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                    <apply>
+                      <and/>
+                      <apply>
+                        <eq/>
+                        <ci> S_11 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_8 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <eq/>
+                            <ci> S_7 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_15 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_4 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_13 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+                    </qual:functionTerm>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition qual:id="tr_S_7">
+        <qual:listOfInputs>
+          <qual:input qual:id="tr_S_7_in_S_9" qual:qualitativeSpecies="S_9" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>TGFb activates the transcription factor, Foxp3, which activates Treg differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_7_in_S_11" qual:qualitativeSpecies="S_11" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IL6 inhibits the Treg transcription factor, Foxp3.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_7_in_S_7" qual:qualitativeSpecies="S_7" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Treg cells produce  TGFb, which further stimulates Treg differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_7_in_S_8" qual:qualitativeSpecies="S_8" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Naive CD4 T cells are the precursors of Treg cells.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_7_in_S_12" qual:qualitativeSpecies="S_12" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>TregInhibitor is specifically an inhibitor for Treg differentiation.</p></body>
+            </notes>
+          </qual:input>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="S_7" qual:transitionEffect="assignmentLevel"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="0">
+          </qual:defaultTerm>
+          <qual:functionTerm qual:resultLevel="1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <or/>
+                <apply>
+                  <and/>
+                  <apply>
+                    <eq/>
+                    <ci> S_7 </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <eq/>
+                        <ci> S_11 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_12 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <eq/>
+                      <ci> S_9 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                    <apply>
+                      <eq/>
+                      <ci> S_8 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <eq/>
+                        <ci> S_11 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_12 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+                    </qual:functionTerm>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition qual:id="tr_S_8">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>AntigenPresentingCD4TCell activates NaiveCD4TCell.</p></body>
+        </notes>
+        <qual:listOfInputs>
+          <qual:input qual:id="tr_S_8_in_S_14" qual:qualitativeSpecies="S_14" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Antigen presenting cells interact with naive CD4 T cells in the thymus and activate T cell differentiation.</p></body>
+            </notes>
+          </qual:input>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="S_8" qual:transitionEffect="assignmentLevel"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="0">
+          </qual:defaultTerm>
+          <qual:functionTerm qual:resultLevel="1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <eq/>
+                <ci> S_14 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </math>
+                    </qual:functionTerm>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition qual:id="tr_S_13">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>IFNg, when naive CD4 T cells are present, activates Th1 differentiation.</p><p>IL12, when naive CD4 T cells are present, activates Th1 differentiation.</p><p>Th17, Th1Inhibitor, Th2, and Treg inhibit Th1 differentiaion.</p><p>Th1 cells positively regulate their own differentiation.</p></body>
+        </notes>
+        <qual:listOfInputs>
+          <qual:input qual:id="tr_S_13_in_S_13" qual:qualitativeSpecies="S_13" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th1 cells produce cytokines that stimulate further differentiation of Th1 cells.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_7" qual:qualitativeSpecies="S_7" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Treg inhibits Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_1" qual:qualitativeSpecies="S_1" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IL12, when naive CD4 T cells are present, activates Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_8" qual:qualitativeSpecies="S_8" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IL12, when naive CD4 T cells are present, activates Th1 differentiation.</p><p>IFNg, when naive CD4 T cells are present, activates Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_2" qual:qualitativeSpecies="S_2" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th17 produces cytokines that inhibit Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_16" qual:qualitativeSpecies="S_16" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IFNg, when naive CD4 T cells are present, activates Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_15" qual:qualitativeSpecies="S_15" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th2 produces cytokines that inhibit Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_13_in_S_5" qual:qualitativeSpecies="S_5" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th1Inhibitor is specifically an inhibitor for Th1 differentiation.</p></body>
+            </notes>
+          </qual:input>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="S_13" qual:transitionEffect="assignmentLevel"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="0">
+          </qual:defaultTerm>
+          <qual:functionTerm qual:resultLevel="1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <or/>
+                <apply>
+                  <or/>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <eq/>
+                      <ci> S_13 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                    <apply>
+                      <not/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <or/>
+                            <apply>
+                              <eq/>
+                              <ci> S_2 </ci>
+                              <cn type="integer"> 1 </cn>
+                            </apply>
+                            <apply>
+                              <eq/>
+                              <ci> S_7 </ci>
+                              <cn type="integer"> 1 </cn>
+                            </apply>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_5 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_15 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <and/>
+                      <apply>
+                        <eq/>
+                        <ci> S_16 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_8 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <not/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <or/>
+                            <apply>
+                              <eq/>
+                              <ci> S_2 </ci>
+                              <cn type="integer"> 1 </cn>
+                            </apply>
+                            <apply>
+                              <eq/>
+                              <ci> S_7 </ci>
+                              <cn type="integer"> 1 </cn>
+                            </apply>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_5 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_15 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <eq/>
+                      <ci> S_1 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                    <apply>
+                      <eq/>
+                      <ci> S_8 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <eq/>
+                            <ci> S_2 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_7 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_5 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_15 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+                    </qual:functionTerm>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition qual:id="tr_S_14">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>Pathogen activates AntigenPresentingCell.</p></body>
+        </notes>
+        <qual:listOfInputs>
+          <qual:input qual:id="tr_S_14_in_S_10" qual:qualitativeSpecies="S_10" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Pathogens are recognized and processed by antigen presenting cells.</p></body>
+            </notes>
+          </qual:input>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="S_14" qual:transitionEffect="assignmentLevel"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="0">
+          </qual:defaultTerm>
+          <qual:functionTerm qual:resultLevel="1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <eq/>
+                <ci> S_10 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </math>
+                    </qual:functionTerm>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+      <qual:transition qual:id="tr_S_15">
+        <qual:listOfInputs>
+          <qual:input qual:id="tr_S_15_in_S_13" qual:qualitativeSpecies="S_13" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th1 produces cytokines that inhibit Th2 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_15_in_S_3" qual:qualitativeSpecies="S_3" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th2Inhibitor specifically inhibits Th2 T cells.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_15_in_S_6" qual:qualitativeSpecies="S_6" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IL4 activates the trascription factor, GATA-3, to activate Th2 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_15_in_S_7" qual:qualitativeSpecies="S_7" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th1, Th17,Th2Inhibitor and Treg inhibt Th2.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_15_in_S_8" qual:qualitativeSpecies="S_8" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>IL4, in conjuction with a naive CD4 Tcell, activates the trascription factor, GATA-3, to activate Th2 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_15_in_S_2" qual:qualitativeSpecies="S_2" qual:sign="negative" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th17 produces cytokines that inhibit Th2 differentiation.</p></body>
+            </notes>
+          </qual:input>
+          <qual:input qual:id="tr_S_15_in_S_15" qual:qualitativeSpecies="S_15" qual:sign="positive" qual:thresholdLevel="1" qual:transitionEffect="none">
+            <notes>
+              <body xmlns="http://www.w3.org/1999/xhtml">
+                <p>Th2 cells produce cytokines which further stimulates Th2 differentiation.</p></body>
+            </notes>
+          </qual:input>
+        </qual:listOfInputs>
+        <qual:listOfOutputs>
+          <qual:output qual:qualitativeSpecies="S_15" qual:transitionEffect="assignmentLevel"/>
+        </qual:listOfOutputs>
+        <qual:listOfFunctionTerms>
+          <qual:defaultTerm qual:resultLevel="0">
+          </qual:defaultTerm>
+          <qual:functionTerm qual:resultLevel="1">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">            
+              <apply>
+                <or/>
+                <apply>
+                  <and/>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <eq/>
+                      <ci> S_6 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                    <apply>
+                      <eq/>
+                      <ci> S_8 </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <eq/>
+                            <ci> S_3 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_2 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_7 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_13 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <and/>
+                  <apply>
+                    <eq/>
+                    <ci> S_15 </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                  <apply>
+                    <not/>
+                    <apply>
+                      <or/>
+                      <apply>
+                        <or/>
+                        <apply>
+                          <or/>
+                          <apply>
+                            <eq/>
+                            <ci> S_3 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                          <apply>
+                            <eq/>
+                            <ci> S_2 </ci>
+                            <cn type="integer"> 1 </cn>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <eq/>
+                          <ci> S_7 </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <eq/>
+                        <ci> S_13 </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </math>
+                    </qual:functionTerm>
+        </qual:listOfFunctionTerms>
+      </qual:transition>
+    </qual:listOfTransitions>
+    <listOfCompartments>
+      <compartment constant="true" id="extracellular" name="extracellular"/>
+      <compartment constant="true" id="cytosol" name="cytosol"/>
+    </listOfCompartments>
+  </model>
+</sbml>
