@@ -3,6 +3,7 @@ from rdflib import Graph, Literal, Namespace, URIRef
 from rdflib.namespace import DC, DCTERMS, RDF, RDFS, XSD
 import xml.etree.ElementTree as ET
 import cc_sbml
+import re
 
 
 # takes an sbml file name
@@ -15,16 +16,22 @@ def makeRDFfile(filepath):
     # Create an RDF graph
     graph = Graph()
 
-    # Define namespace
+    # Define namespaces
     sbml_ns = Namespace("http://www.sbml.org/sbml-level3/version1/core")
     qual_ns = Namespace("http://www.sbml.org/sbml/level3/version1/qual/version1")
     dcterms_ns = Namespace("http://purl.org/dc/terms/")
-    bqbiol_ns = Namespace("http://www.biopax.org/release/biopax-level3.owl#")
     uniprot_ns = Namespace("http://www.uniprot.org/uniprot/")
     ncbi_ns = Namespace("http://www.ncbi.nlm.nih.gov/gene/")
+    biopax_ns = Namespace("https://www.biopax.org/release/biopax-level3.owl#")
+
+    bqbiol_ns = Namespace("http://www.biopax.org/release/biopax-level3.owl#")
     graph.bind('bqbiol', Namespace('http://www.biopax.org/release/biopax-level3.owl#'))
+
     SBML = Namespace("http://biomodels.net/sbml#")
     graph.bind('sbml', SBML)
+
+    miriam_ns = Namespace('https://identifiers.org/')
+    pubmed_ns = miriam_ns['pubmed/']
 
     # https://research.cellcollective.org/?dashboard=true#module/2035:1/cortical-area-development/1
     # set the model uri
@@ -46,6 +53,11 @@ def makeRDFfile(filepath):
         # weird html junk
         #graph.add((URIRef(model_uri), DCTERMS.description, Literal(model.getNotesString())))
 
+        model_pubmeds = extractPubMed(model)
+        for id in model_pubmeds:
+            pubmed_uri = URIRef(pubmed_ns + id)
+            graph.add((URIRef(model_uri), bqbiol_ns.isDescribedBy, pubmed_uri))
+
     # get the QualitativeModelPlugin
     qmodel_plugin = model.getPlugin("qual")
 
@@ -56,8 +68,12 @@ def makeRDFfile(filepath):
     for i in range(qs_list.size()):
         qs = qs_list.get(i)
         species_uri = URIRef(model_uri + "#" + qs.getId())
+        # qualitative species (title)  triple
         graph.add((species_uri, DC.title, Literal(qs.getName())))
+        #
         graph.add((species_uri, DCTERMS.description, Literal(qs.getName())))
+        # meta id of the species
+        graph.add((species_uri, DCTERMS.identifier, Literal(qs.getMetaId())))
 
 
         # add UniProt ID annotations
@@ -66,10 +82,64 @@ def makeRDFfile(filepath):
             uniprot_uri = URIRef(uniprot_ns + id)
             graph.add((species_uri, bqbiol_ns.isVersionOf, uniprot_uri))
 
+        # add NCBI annotations
         NCBI_IDs = extractNCBI(qs)
         for id in NCBI_IDs:
             ncbi_uri = URIRef(ncbi_ns + id)
             graph.add((species_uri, bqbiol_ns.isEncodedBy, ncbi_uri))
+
+        # add PubMed annotations
+        PubMed = extractPubMed(qs)
+        for id in PubMed:
+            pubmed_uri = URIRef(pubmed_ns + id)
+            graph.add((species_uri, bqbiol_ns.isDescribedBy, pubmed_uri))
+
+    # get the list of QualitativeTransitions
+    qt_list = qmodel_plugin.getListOfTransitions()
+
+    # iterate through the QualitativeTransitions
+    for i in range(qt_list.size()):
+            qt = qt_list.get(i)
+            transition_uri = URIRef(model_uri + "#" + qt.getId())
+            # triple:
+            graph.add((transition_uri, RDF.type, URIRef(sbml_ns['Transition'])))
+            # triple: id of transition
+            graph.add((transition_uri, DC.title, Literal(qt.getId())))
+
+            # get the list of inputs within the qualitative species
+            input_list = qt.getListOfInputs()
+
+            if input_list is None:
+                continue
+
+            # iterate through the inputs
+            for j in range(input_list.size()):
+                input = input_list.get(j)
+                input_uri = URIRef(model_uri + "#" + input.getQualitativeSpecies())
+
+                # link transition to input
+                graph.add((transition_uri, bqbiol_ns.hasInput, input_uri))
+                # RDF type
+                graph.add((input_uri, RDF.type, biopax_ns.PHYSICAL_ENTITY))
+                # link qualitative species to input
+                graph.add((input_uri, RDFS.label, Literal(input.getQualitativeSpecies())))
+
+            # get the list of outputs within the qualitative species
+            output_list = qt.getListOfOutputs()
+
+            if output_list is None:
+                continue
+
+            # iterate through the outputs:
+            for k in range(output_list.size()):
+                output = output_list.get(k)
+                output_uri = URIRef(model_uri + "#" + output.getQualitativeSpecies())
+
+                # link transition to output
+                graph.add((transition_uri, bqbiol_ns.hasOutput, output_uri))
+                # link qualitative species to output
+                graph.add((output_uri, RDFS.label, Literal(output.getQualitativeSpecies())))
+
 
     # Serialize the RDF graph into a file
     rdf_file = 'annotations.rdf'
@@ -87,13 +157,58 @@ def extractUniProt(qs):
     return ids
 
 # uses extractID() to extract all NCBI IDs
-# from a agiven qualitative species (qs)
+# from a a given qualitative species (qs)
 def extractNCBI(qs):
     ids = []
     NCBI_extraction_phrases = [("NCBI Gene ID", "Gene"), ("Gene Name", "Gene"), ("Gene ID", "Gene")]
     for target_phrase, index_phrase in NCBI_extraction_phrases:
         ids += extractID(qs, target_phrase, index_phrase)
     return ids
+
+# extract all miriam:urn pubmed IDs
+# from a given qualitative species (qs)
+def extractPubMed(qs):
+
+    # list of pubmeds in the qualitative species
+    pubmed = []
+
+    # get full annotation of species
+    species_annotation = qs.getAnnotation()
+
+    # get rdf annotation of species
+    rdf_annotation = species_annotation.getChild(0)
+
+    # get description annotation of rdf
+    description_annotation = rdf_annotation.getChild(0)
+
+    # iterate through each child of the annotation
+    # (each pubmed annotation)
+    for i in range(description_annotation.getNumChildren()):
+
+        # get the current child
+        bqbiol = description_annotation.getChild(i)
+
+        # get "Bag" annotation
+        rdf_bag = bqbiol.getChild("Bag")
+
+        # get "li" annotation
+        rdf_li = rdf_bag.getChild("li")
+
+        # get string between quotes
+        match = re.search(r'"([^"]+)"', rdf_li.toXMLString())
+
+        if match is not None:
+            miriam_urn = match.group(1)
+            if "pubmed" in miriam_urn:
+
+                # get everything after the last colon
+                last_colon_index = miriam_urn.rfind(":")
+                pubmed.append(miriam_urn[last_colon_index + 1:])
+
+    return pubmed
+
+
+
 
 # extracts all IDs from a given qualitative species (qs)
 # using the given target_phrase and index_phrase
