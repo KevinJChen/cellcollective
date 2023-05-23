@@ -3,10 +3,11 @@
    xmlns:bqbiol="http://www.biopax.org/release/biopax-level3.owl#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ns1="http://www.sbml.org/sbml/level3/version1/qual/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#S_2">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_2">
     <dc:title>Emx2</dc:title>
     <dcterms:description>Emx2</dcterms:description>
     <dcterms:identifier>d1a3f885-1c98-4415-b3b8-3cd783892d8e</dcterms:identifier>
@@ -26,22 +27,17 @@
     <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
     <rdfs:label>S_2</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#S_3">
-    <dc:title>Coup_fti</dc:title>
-    <dcterms:description>Coup_fti</dcterms:description>
-    <dcterms:identifier>b2155007-6d8e-4763-975a-fde3bf5eca0c</dcterms:identifier>
-    <bqbiol:isVersionOf rdf:resource="http://www.uniprot.org/uniprot/P10589"/>
-    <bqbiol:isEncodedBy rdf:resource="http://www.ncbi.nlm.nih.gov/gene/7025"/>
-    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12642494"/>
-    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/20862356"/>
-    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18459137"/>
-    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12872126"/>
-    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/17470284"/>
-    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/16613831"/>
-    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
-    <rdfs:label>S_3</rdfs:label>
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#tr_S_1">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_1</dc:title>
+    <ns1:version1sign>positive</ns1:version1sign>
+    <ns1:version1sign>negative</ns1:version1sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_4"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_2"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_1"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#S_5">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_5">
     <dc:title>Pax6</dc:title>
     <dcterms:description>Pax6</dcterms:description>
     <dcterms:identifier>_89a05aaa-baf7-4331-9b87-06484e1147ea</dcterms:identifier>
@@ -56,7 +52,30 @@
     <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
     <rdfs:label>S_5</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#S_4">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#tr_S_3">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_3</dc:title>
+    <ns1:version1sign>negative</ns1:version1sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_4"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_1"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_3">
+    <dc:title>Coup_fti</dc:title>
+    <dcterms:description>Coup_fti</dcterms:description>
+    <dcterms:identifier>b2155007-6d8e-4763-975a-fde3bf5eca0c</dcterms:identifier>
+    <bqbiol:isVersionOf rdf:resource="http://www.uniprot.org/uniprot/P10589"/>
+    <bqbiol:isEncodedBy rdf:resource="http://www.ncbi.nlm.nih.gov/gene/7025"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12642494"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/20862356"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18459137"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12872126"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/17470284"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/16613831"/>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_4">
     <dc:title>Sp8</dc:title>
     <dcterms:description>Sp8</dcterms:description>
     <dcterms:identifier>ea497e08-115d-418a-a50b-b15eff983e10</dcterms:identifier>
@@ -69,31 +88,7 @@
     <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
     <rdfs:label>S_4</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#tr_S_4">
-    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr_S_4</dc:title>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_2"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_1"/>
-    <bqbiol:hasOutput rdf:resource="http://www.example.org/models/my_model#S_4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#tr_S_2">
-    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr_S_2</dc:title>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_4"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_1"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_5"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_3"/>
-    <bqbiol:hasOutput rdf:resource="http://www.example.org/models/my_model#S_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#tr_S_1">
-    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr_S_1</dc:title>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_4"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_2"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_1"/>
-    <bqbiol:hasOutput rdf:resource="http://www.example.org/models/my_model#S_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#S_1">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_1">
     <dc:title>Fgf8</dc:title>
     <dcterms:description>Fgf8</dcterms:description>
     <dcterms:identifier>_0399e03b-8900-4b5e-8288-94bfad175540</dcterms:identifier>
@@ -110,22 +105,37 @@
     <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
     <rdfs:label>S_1</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#tr_S_5">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#tr_S_2">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_2</dc:title>
+    <ns1:version1sign>negative</ns1:version1sign>
+    <ns1:version1sign>positive</ns1:version1sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_4"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_1"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_5"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_3"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#tr_S_5">
     <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
     <dc:title>tr_S_5</dc:title>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_4"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_2"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_3"/>
-    <bqbiol:hasOutput rdf:resource="http://www.example.org/models/my_model#S_5"/>
+    <ns1:version1sign>positive</ns1:version1sign>
+    <ns1:version1sign>negative</ns1:version1sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_4"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_2"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_3"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model#tr_S_3">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#tr_S_4">
     <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr_S_3</dc:title>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_4"/>
-    <bqbiol:hasInput rdf:resource="http://www.example.org/models/my_model#S_1"/>
-    <bqbiol:hasOutput rdf:resource="http://www.example.org/models/my_model#S_3"/>
+    <dc:title>tr_S_4</dc:title>
+    <ns1:version1sign>negative</ns1:version1sign>
+    <ns1:version1sign>positive</ns1:version1sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_2"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_1"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/Cortical_Area_Development_(SBML).sbml#S_4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/models/my_model">
+  <rdf:Description rdf:about="http://omex-library.org/Cortical_Area_Development_(SBML).sbml">
     <dcterms:identifier>_957b9011-08c6-43aa-a4c3-69ed1e1242db</dcterms:identifier>
     <dc:title>Cortical Area Development</dc:title>
     <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/20862356"/>

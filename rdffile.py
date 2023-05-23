@@ -4,6 +4,7 @@ from rdflib.namespace import DC, DCTERMS, RDF, RDFS, XSD
 import xml.etree.ElementTree as ET
 import cc_sbml
 import re
+import os
 
 
 # takes an sbml file name
@@ -19,6 +20,7 @@ def makeRDFfile(filepath):
     # Define namespaces
     sbml_ns = Namespace("http://www.sbml.org/sbml-level3/version1/core")
     qual_ns = Namespace("http://www.sbml.org/sbml/level3/version1/qual/version1")
+    graph.bind('qual', qual_ns)
     dcterms_ns = Namespace("http://purl.org/dc/terms/")
     uniprot_ns = Namespace("http://www.uniprot.org/uniprot/")
     ncbi_ns = Namespace("http://www.ncbi.nlm.nih.gov/gene/")
@@ -35,7 +37,7 @@ def makeRDFfile(filepath):
 
     # https://research.cellcollective.org/?dashboard=true#module/2035:1/cortical-area-development/1
     # set the model uri
-    model_uri = "http://www.example.org/models/my_model"
+    model_uri = "http://omex-library.org/" + str(os.path.basename(filepath.replace(" ", "_")))
     #graph.add((URIRef(model_uri), RDF.type, sbml_ns.Model))
 
     # add annotations for the model
@@ -74,7 +76,6 @@ def makeRDFfile(filepath):
         graph.add((species_uri, DCTERMS.description, Literal(qs.getName())))
         # meta id of the species
         graph.add((species_uri, DCTERMS.identifier, Literal(qs.getMetaId())))
-
 
         # add UniProt ID annotations
         UniProt_IDs = extractUniProt(qs)
@@ -115,10 +116,18 @@ def makeRDFfile(filepath):
             # iterate through the inputs
             for j in range(input_list.size()):
                 input = input_list.get(j)
-                input_uri = URIRef(model_uri + "#" + input.getQualitativeSpecies())
+                input_uri = URIRef(model_uri + "#" + input.getId())
 
+                # 0 = positive
+                # 1 = negative
+
+                # annotate the sign (positive or negative)
+                if input.getSign() == 0:
+                    graph.add((input_uri, qual_ns.sign, Literal('positive')))
+                else:
+                    graph.add((input_uri, qual_ns.sign, Literal('negative')))
                 # link transition to input
-                graph.add((transition_uri, bqbiol_ns.hasInput, input_uri))
+                graph.add((transition_uri, bqbiol_ns.hasSource, input_uri))
                 # RDF type
                 graph.add((input_uri, RDF.type, biopax_ns.PHYSICAL_ENTITY))
                 # link qualitative species to input
@@ -136,13 +145,13 @@ def makeRDFfile(filepath):
                 output_uri = URIRef(model_uri + "#" + output.getQualitativeSpecies())
 
                 # link transition to output
-                graph.add((transition_uri, bqbiol_ns.hasOutput, output_uri))
+                graph.add((transition_uri, bqbiol_ns.hasSink, output_uri))
                 # link qualitative species to output
                 graph.add((output_uri, RDFS.label, Literal(output.getQualitativeSpecies())))
 
 
     # Serialize the RDF graph into a file
-    rdf_file = 'annotations.rdf'
+    rdf_file = 'annotations_' + str(os.path.basename(filepath.replace(" ", "_"))[:-5])+ '.rdf'
     with open(rdf_file, 'w') as f:
         f.write(graph.serialize(format='xml'))
     return
@@ -153,7 +162,10 @@ def extractUniProt(qs):
     ids = []
     UniProt_extraction_phrases = [("UniProt ID", "UniProt"), ("UniProt Accession ID", "Accession")]
     for target_phrase, index_phrase in UniProt_extraction_phrases:
-        ids += extractID(qs, target_phrase, index_phrase)
+        extracted_ids = extractID(qs, target_phrase, index_phrase)
+        if extracted_ids is None:
+            continue
+        ids += extracted_ids
     return ids
 
 # uses extractID() to extract all NCBI IDs
@@ -162,7 +174,10 @@ def extractNCBI(qs):
     ids = []
     NCBI_extraction_phrases = [("NCBI Gene ID", "Gene"), ("Gene Name", "Gene"), ("Gene ID", "Gene")]
     for target_phrase, index_phrase in NCBI_extraction_phrases:
-        ids += extractID(qs, target_phrase, index_phrase)
+        extracted_ids = extractID(qs, target_phrase, index_phrase)
+        if extracted_ids is None:
+            continue
+        ids += extracted_ids
     return ids
 
 # extract all miriam:urn pubmed IDs
@@ -174,6 +189,9 @@ def extractPubMed(qs):
 
     # get full annotation of species
     species_annotation = qs.getAnnotation()
+
+    if species_annotation is None:
+        return pubmed
 
     # get rdf annotation of species
     rdf_annotation = species_annotation.getChild(0)

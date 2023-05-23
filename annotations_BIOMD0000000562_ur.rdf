@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bqbiol="http://www.biopax.org/release/biopax-level3.owl#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#egf">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>a946000f-9b20-48d4-924c-ffadef6a6c5e</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>egf</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t7">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t7</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#tnfr"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#traf2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ap1">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_80f5efef-7bc6-411b-a001-f4439ee9dc75</dcterms:identifier>
+    <rdfs:label>ap1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#nik">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_132d49fd-e9df-44af-b2cb-44859ed2f974</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>nik</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t21">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t21</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#cjun"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ap1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml">
+    <dcterms:identifier>_47f3d7b1-7b24-4193-8878-6fed9eca24f0</dcterms:identifier>
+    <dc:title>Chaouiya2013 - EGF and TNFalpha mediated signalling pathway</dc:title>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed///identifiers.org/pubmed/24321545"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t24">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t24</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#raf1"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#mek"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t23">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t23</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#erk"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ph"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ph"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t2">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t2</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#mkk4"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#p38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ikk">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_995a94f1-b3ec-49f7-9c40-81b9a1a9c7c4</dcterms:identifier>
+    <rdfs:label>ikk</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#tnfr">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>f9e3136e-8c96-483f-a39b-6bda9c7107f4</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>tnfr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#sos">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_248f799b-d162-49c9-9b8f-418192f74b6e</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>sos</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#p38">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_9ae40d45-e115-48dd-b8a3-e7a85f2eab13</dcterms:identifier>
+    <rdfs:label>p38</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ras">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_8e210ad1-a29f-43c0-b369-220dffd288f9</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>ras</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t16">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t16</dc:title>
+    <qual:sign>negative</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#akt"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#gsk3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t3">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t3</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ask1"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#map3k1"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#mkk7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t11">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t11</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ras"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#map3k1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#nfkb">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_45f18963-3378-477d-aabb-b5fa81569858</dcterms:identifier>
+    <rdfs:label>nfkb</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t8">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t8</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#egfr"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#pi3k"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#pi3k">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>f8ba59c7-46d8-4312-b06f-50fa225d3443</dcterms:identifier>
+    <rdfs:label>pi3k</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#traf2">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>cc5d296a-a8f0-4644-b7e4-cda8318dd214</dcterms:identifier>
+    <rdfs:label>traf2</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t22">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t22</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#jnk"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#cjun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t26">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t26</dc:title>
+    <qual:sign>positive</qual:sign>
+    <qual:sign>negative</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#egfr"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ph"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#sos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t18">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t18</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#egf"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#egfr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ikb">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_05410551-b3fa-45d2-8521-b3b572c982d2</dcterms:identifier>
+    <rdfs:label>ikb</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#egfr">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>e295b14c-6e05-449e-a9ae-729f4404f7ea</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>egfr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ph">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>e8e1a053-ec10-44ad-965e-6fc4d9f53b98</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>ph</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t6">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t6</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#mkk7"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#jnk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t14">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t14</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#traf2"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#map3k7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#tnfa">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_1b7ee634-c115-409a-a2ff-931dc1887671</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>tnfa</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t20">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t20</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#nfkb"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#raf1">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_8bfd49b9-6d05-45ff-905c-d9fe3b6dcd04</dcterms:identifier>
+    <rdfs:label>raf1</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#map3k1">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>b85e7c3e-102b-4e23-bf1b-640835dcbadb</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>map3k1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ask1">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_37e7faec-92ad-43cb-a057-f8fcd4c18875</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>ask1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#map3k7">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>f721f8b6-04af-4bf7-96a9-371b4ceeb568</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>map3k7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#akt">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_79184323-ef36-4d64-ae2f-bf12b8ff5c28</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>akt</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#erk">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_9076662b-d4f9-4f0e-9cdd-eae25793acf3</dcterms:identifier>
+    <rdfs:label>erk</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#mek">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>cff24090-1cf7-415f-822d-944f8db9b54c</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>mek</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t5">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t5</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#map3k7"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#nik"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#jnk">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>d726c913-8999-44c2-b973-04b58c3e60d4</dcterms:identifier>
+    <rdfs:label>jnk</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t19">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t19</dc:title>
+    <qual:sign>negative</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ikb"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#nfkb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#cjun">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>cfb8b1fe-ae19-4764-8000-9e1faed9b2ff</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>cjun</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t15">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t15</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#traf2"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ask1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t17">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t17</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#pi3k"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#akt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t13">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t13</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#tnfa"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#tnfr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t10">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t10</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#mek"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#erk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t12">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t12</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ras"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#raf1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#gsk3">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_843111db-891e-42b5-aa5c-ed37af19688e</dcterms:identifier>
+    <rdfs:label>gsk3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t1">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t1</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#nik"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ikk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#mkk4">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>f11447d4-3eb9-4885-b987-945160b1d758</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>mkk4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#ex">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>ff3a0ffb-0f5d-420f-b00a-60c1b5e49159</dcterms:identifier>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>ex</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t25">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t25</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#sos"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ras"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t9">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t9</dc:title>
+    <qual:sign>negative</qual:sign>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ikk"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ex"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#ikb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#mkk7">
+    <dc:title></dc:title>
+    <dcterms:description></dcterms:description>
+    <dcterms:identifier>_0db540c2-3762-4457-9caf-812de8d8be0c</dcterms:identifier>
+    <rdfs:label>mkk7</rdfs:label>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BIOMD0000000562_url.xml#t4">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>t4</dc:title>
+    <qual:sign>positive</qual:sign>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#map3k7"/>
+    <bqbiol:hasInput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#map3k1"/>
+    <bqbiol:hasOutput rdf:resource="http://omex-library.org/BIOMD0000000562_url.xml#mkk4"/>
+  </rdf:Description>
+</rdf:RDF>
