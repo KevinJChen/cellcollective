@@ -4,283 +4,283 @@
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplQ">
-    <dc:title>rplQ</dc:title>
-    <dcterms:description>rplQ</dcterms:description>
-    <dcterms:identifier>meta_qual_rplQ</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsE">
-    <dc:title>rpsE</dc:title>
-    <dcterms:description>rpsE</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsE</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsT">
-    <dc:title>rpsT</dc:title>
-    <dcterms:description>rpsT</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsT</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rrlA">
-    <dc:title>rrlA</dc:title>
-    <dcterms:description>rrlA</dcterms:description>
-    <dcterms:identifier>meta_qual_rrlA</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml">
-    <dcterms:identifier>meta_path_rde03010</dcterms:identifier>
-    <dc:title>Ribosome</dc:title>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmA">
-    <dc:title>rpmA</dc:title>
-    <dcterms:description>rpmA</dcterms:description>
-    <dcterms:identifier>meta_qual_rpmA</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplW">
-    <dc:title>rplW</dc:title>
-    <dcterms:description>rplW</dcterms:description>
-    <dcterms:identifier>meta_qual_rplW</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsN">
-    <dc:title>rpsN</dc:title>
-    <dcterms:description>rpsN</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsN</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplO">
-    <dc:title>rplO</dc:title>
-    <dcterms:description>rplO</dcterms:description>
-    <dcterms:identifier>meta_qual_rplO</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplX">
-    <dc:title>rplX</dc:title>
-    <dcterms:description>rplX</dcterms:description>
-    <dcterms:identifier>meta_qual_rplX</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplJ">
-    <dc:title>rplJ</dc:title>
-    <dcterms:description>rplJ</dcterms:description>
-    <dcterms:identifier>meta_qual_rplJ</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsG">
-    <dc:title>rpsG</dc:title>
-    <dcterms:description>rpsG</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsG</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsR">
-    <dc:title>rpsR</dc:title>
-    <dcterms:description>rpsR</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsR</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsJ">
-    <dc:title>rpsJ</dc:title>
-    <dcterms:description>rpsJ</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsJ</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsS">
-    <dc:title>rpsS</dc:title>
-    <dcterms:description>rpsS</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsS</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplP">
-    <dc:title>rplP</dc:title>
-    <dcterms:description>rplP</dcterms:description>
-    <dcterms:identifier>meta_qual_rplP</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rrfA">
-    <dc:title>rrfA</dc:title>
-    <dcterms:description>rrfA</dcterms:description>
-    <dcterms:identifier>meta_qual_rrfA</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplE">
-    <dc:title>rplE</dc:title>
-    <dcterms:description>rplE</dcterms:description>
-    <dcterms:identifier>meta_qual_rplE</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_1418">
-    <dc:title>RD1_1418</dc:title>
-    <dcterms:description>RD1_1418</dcterms:description>
-    <dcterms:identifier>meta_qual_RD1_1418</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rrsA">
-    <dc:title>rrsA</dc:title>
-    <dcterms:description>rrsA</dcterms:description>
-    <dcterms:identifier>meta_qual_rrsA</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplB">
-    <dc:title>rplB</dc:title>
-    <dcterms:description>rplB</dcterms:description>
-    <dcterms:identifier>meta_qual_rplB</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsD">
-    <dc:title>rpsD</dc:title>
-    <dcterms:description>rpsD</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsD</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplR">
-    <dc:title>rplR</dc:title>
-    <dcterms:description>rplR</dcterms:description>
-    <dcterms:identifier>meta_qual_rplR</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplS">
-    <dc:title>rplS</dc:title>
-    <dcterms:description>rplS</dcterms:description>
-    <dcterms:identifier>meta_qual_rplS</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsA">
-    <dc:title>rpsA</dc:title>
-    <dcterms:description>rpsA</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsA</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsM">
-    <dc:title>rpsM</dc:title>
-    <dcterms:description>rpsM</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsM</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplI">
-    <dc:title>rplI</dc:title>
-    <dcterms:description>rplI</dcterms:description>
-    <dcterms:identifier>meta_qual_rplI</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmI">
-    <dc:title>rpmI</dc:title>
-    <dcterms:description>rpmI</dcterms:description>
-    <dcterms:identifier>meta_qual_rpmI</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplK">
-    <dc:title>rplK</dc:title>
-    <dcterms:description>rplK</dcterms:description>
-    <dcterms:identifier>meta_qual_rplK</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmF">
-    <dc:title>rpmF</dc:title>
-    <dcterms:description>rpmF</dcterms:description>
-    <dcterms:identifier>meta_qual_rpmF</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsO">
-    <dc:title>rpsO</dc:title>
-    <dcterms:description>rpsO</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsO</dcterms:identifier>
-  </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplM">
     <dc:title>rplM</dc:title>
     <dcterms:description>rplM</dcterms:description>
     <dcterms:identifier>meta_qual_rplM</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplL">
-    <dc:title>rplL</dc:title>
-    <dcterms:description>rplL</dcterms:description>
-    <dcterms:identifier>meta_qual_rplL</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsI">
-    <dc:title>rpsI</dc:title>
-    <dcterms:description>rpsI</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsI</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsH">
-    <dc:title>rpsH</dc:title>
-    <dcterms:description>rpsH</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsH</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplD">
-    <dc:title>rplD</dc:title>
-    <dcterms:description>rplD</dcterms:description>
-    <dcterms:identifier>meta_qual_rplD</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsP">
-    <dc:title>rpsP</dc:title>
-    <dcterms:description>rpsP</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsP</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsK">
-    <dc:title>rpsK</dc:title>
-    <dcterms:description>rpsK</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsK</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplN">
-    <dc:title>rplN</dc:title>
-    <dcterms:description>rplN</dcterms:description>
-    <dcterms:identifier>meta_qual_rplN</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_3898">
     <dc:title>RD1_3898</dc:title>
     <dcterms:description>RD1_3898</dcterms:description>
     <dcterms:identifier>meta_qual_RD1_3898</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsC">
-    <dc:title>rpsC</dc:title>
-    <dcterms:description>rpsC</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsC</dcterms:identifier>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsT">
+    <dc:title>rpsT</dc:title>
+    <dcterms:description>rpsT</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsT</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmH">
-    <dc:title>rpmH</dc:title>
-    <dcterms:description>rpmH</dcterms:description>
-    <dcterms:identifier>meta_qual_rpmH</dcterms:identifier>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsM">
+    <dc:title>rpsM</dc:title>
+    <dcterms:description>rpsM</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsM</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsQ">
-    <dc:title>rpsQ</dc:title>
-    <dcterms:description>rpsQ</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsQ</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplA">
-    <dc:title>rplA</dc:title>
-    <dcterms:description>rplA</dcterms:description>
-    <dcterms:identifier>meta_qual_rplA</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_2665">
-    <dc:title>RD1_2665</dc:title>
-    <dcterms:description>RD1_2665</dcterms:description>
-    <dcterms:identifier>meta_qual_RD1_2665</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_1997">
-    <dc:title>RD1_1997</dc:title>
-    <dcterms:description>RD1_1997</dcterms:description>
-    <dcterms:identifier>meta_qual_RD1_1997</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmE">
-    <dc:title>rpmE</dc:title>
-    <dcterms:description>rpmE</dcterms:description>
-    <dcterms:identifier>meta_qual_rpmE</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsB">
-    <dc:title>rpsB</dc:title>
-    <dcterms:description>rpsB</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsB</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplF">
-    <dc:title>rplF</dc:title>
-    <dcterms:description>rplF</dcterms:description>
-    <dcterms:identifier>meta_qual_rplF</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplT">
-    <dc:title>rplT</dc:title>
-    <dcterms:description>rplT</dcterms:description>
-    <dcterms:identifier>meta_qual_rplT</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsF">
-    <dc:title>rpsF</dc:title>
-    <dcterms:description>rpsF</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsF</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplV">
-    <dc:title>rplV</dc:title>
-    <dcterms:description>rplV</dcterms:description>
-    <dcterms:identifier>meta_qual_rplV</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsL">
-    <dc:title>rpsL</dc:title>
-    <dcterms:description>rpsL</dcterms:description>
-    <dcterms:identifier>meta_qual_rpsL</dcterms:identifier>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplQ">
+    <dc:title>rplQ</dc:title>
+    <dcterms:description>rplQ</dcterms:description>
+    <dcterms:identifier>meta_qual_rplQ</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplC">
     <dc:title>rplC</dc:title>
     <dcterms:description>rplC</dcterms:description>
     <dcterms:identifier>meta_qual_rplC</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmD">
-    <dc:title>rpmD</dc:title>
-    <dcterms:description>rpmD</dcterms:description>
-    <dcterms:identifier>meta_qual_rpmD</dcterms:identifier>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsA">
+    <dc:title>rpsA</dc:title>
+    <dcterms:description>rpsA</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsA</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsN">
+    <dc:title>rpsN</dc:title>
+    <dcterms:description>rpsN</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsN</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_2665">
+    <dc:title>RD1_2665</dc:title>
+    <dcterms:description>RD1_2665</dcterms:description>
+    <dcterms:identifier>meta_qual_RD1_2665</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmH">
+    <dc:title>rpmH</dc:title>
+    <dcterms:description>rpmH</dcterms:description>
+    <dcterms:identifier>meta_qual_rpmH</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplS">
+    <dc:title>rplS</dc:title>
+    <dcterms:description>rplS</dcterms:description>
+    <dcterms:identifier>meta_qual_rplS</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplE">
+    <dc:title>rplE</dc:title>
+    <dcterms:description>rplE</dcterms:description>
+    <dcterms:identifier>meta_qual_rplE</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rrfA">
+    <dc:title>rrfA</dc:title>
+    <dcterms:description>rrfA</dcterms:description>
+    <dcterms:identifier>meta_qual_rrfA</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplK">
+    <dc:title>rplK</dc:title>
+    <dcterms:description>rplK</dcterms:description>
+    <dcterms:identifier>meta_qual_rplK</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsB">
+    <dc:title>rpsB</dc:title>
+    <dcterms:description>rpsB</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsB</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsR">
+    <dc:title>rpsR</dc:title>
+    <dcterms:description>rpsR</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsR</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplI">
+    <dc:title>rplI</dc:title>
+    <dcterms:description>rplI</dcterms:description>
+    <dcterms:identifier>meta_qual_rplI</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplL">
+    <dc:title>rplL</dc:title>
+    <dcterms:description>rplL</dcterms:description>
+    <dcterms:identifier>meta_qual_rplL</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsP">
+    <dc:title>rpsP</dc:title>
+    <dcterms:description>rpsP</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsP</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplN">
+    <dc:title>rplN</dc:title>
+    <dcterms:description>rplN</dcterms:description>
+    <dcterms:identifier>meta_qual_rplN</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsQ">
+    <dc:title>rpsQ</dc:title>
+    <dcterms:description>rpsQ</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsQ</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_1418">
+    <dc:title>RD1_1418</dc:title>
+    <dcterms:description>RD1_1418</dcterms:description>
+    <dcterms:identifier>meta_qual_RD1_1418</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsJ">
+    <dc:title>rpsJ</dc:title>
+    <dcterms:description>rpsJ</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsJ</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplO">
+    <dc:title>rplO</dc:title>
+    <dcterms:description>rplO</dcterms:description>
+    <dcterms:identifier>meta_qual_rplO</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplB">
+    <dc:title>rplB</dc:title>
+    <dcterms:description>rplB</dcterms:description>
+    <dcterms:identifier>meta_qual_rplB</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsH">
+    <dc:title>rpsH</dc:title>
+    <dcterms:description>rpsH</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsH</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsK">
+    <dc:title>rpsK</dc:title>
+    <dcterms:description>rpsK</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsK</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rrlA">
+    <dc:title>rrlA</dc:title>
+    <dcterms:description>rrlA</dcterms:description>
+    <dcterms:identifier>meta_qual_rrlA</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplA">
+    <dc:title>rplA</dc:title>
+    <dcterms:description>rplA</dcterms:description>
+    <dcterms:identifier>meta_qual_rplA</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmB">
     <dc:title>rpmB</dc:title>
     <dcterms:description>rpmB</dcterms:description>
     <dcterms:identifier>meta_qual_rpmB</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_RD1_1997">
+    <dc:title>RD1_1997</dc:title>
+    <dcterms:description>RD1_1997</dcterms:description>
+    <dcterms:identifier>meta_qual_RD1_1997</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rrsA">
+    <dc:title>rrsA</dc:title>
+    <dcterms:description>rrsA</dcterms:description>
+    <dcterms:identifier>meta_qual_rrsA</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsE">
+    <dc:title>rpsE</dc:title>
+    <dcterms:description>rpsE</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsE</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmD">
+    <dc:title>rpmD</dc:title>
+    <dcterms:description>rpmD</dcterms:description>
+    <dcterms:identifier>meta_qual_rpmD</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmF">
+    <dc:title>rpmF</dc:title>
+    <dcterms:description>rpmF</dcterms:description>
+    <dcterms:identifier>meta_qual_rpmF</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplF">
+    <dc:title>rplF</dc:title>
+    <dcterms:description>rplF</dcterms:description>
+    <dcterms:identifier>meta_qual_rplF</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplD">
+    <dc:title>rplD</dc:title>
+    <dcterms:description>rplD</dcterms:description>
+    <dcterms:identifier>meta_qual_rplD</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsL">
+    <dc:title>rpsL</dc:title>
+    <dcterms:description>rpsL</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsL</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsD">
+    <dc:title>rpsD</dc:title>
+    <dcterms:description>rpsD</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsD</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplT">
+    <dc:title>rplT</dc:title>
+    <dcterms:description>rplT</dcterms:description>
+    <dcterms:identifier>meta_qual_rplT</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsO">
+    <dc:title>rpsO</dc:title>
+    <dcterms:description>rpsO</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsO</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplV">
+    <dc:title>rplV</dc:title>
+    <dcterms:description>rplV</dcterms:description>
+    <dcterms:identifier>meta_qual_rplV</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsF">
+    <dc:title>rpsF</dc:title>
+    <dcterms:description>rpsF</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsF</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsI">
+    <dc:title>rpsI</dc:title>
+    <dcterms:description>rpsI</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsI</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplP">
+    <dc:title>rplP</dc:title>
+    <dcterms:description>rplP</dcterms:description>
+    <dcterms:identifier>meta_qual_rplP</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsG">
+    <dc:title>rpsG</dc:title>
+    <dcterms:description>rpsG</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsG</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmA">
+    <dc:title>rpmA</dc:title>
+    <dcterms:description>rpmA</dcterms:description>
+    <dcterms:identifier>meta_qual_rpmA</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplJ">
+    <dc:title>rplJ</dc:title>
+    <dcterms:description>rplJ</dcterms:description>
+    <dcterms:identifier>meta_qual_rplJ</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsC">
+    <dc:title>rpsC</dc:title>
+    <dcterms:description>rpsC</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsC</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpsS">
+    <dc:title>rpsS</dc:title>
+    <dcterms:description>rpsS</dcterms:description>
+    <dcterms:identifier>meta_qual_rpsS</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmI">
+    <dc:title>rpmI</dc:title>
+    <dcterms:description>rpmI</dcterms:description>
+    <dcterms:identifier>meta_qual_rpmI</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplR">
+    <dc:title>rplR</dc:title>
+    <dcterms:description>rplR</dcterms:description>
+    <dcterms:identifier>meta_qual_rplR</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplW">
+    <dc:title>rplW</dc:title>
+    <dcterms:description>rplW</dcterms:description>
+    <dcterms:identifier>meta_qual_rplW</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rplX">
+    <dc:title>rplX</dc:title>
+    <dcterms:description>rplX</dcterms:description>
+    <dcterms:identifier>meta_qual_rplX</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml#qual_rpmE">
+    <dc:title>rpmE</dc:title>
+    <dcterms:description>rpmE</dcterms:description>
+    <dcterms:identifier>meta_qual_rpmE</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018784.xml">
+    <dcterms:identifier>meta_path_rde03010</dcterms:identifier>
+    <dc:title>Ribosome</dc:title>
   </rdf:Description>
 </rdf:RDF>

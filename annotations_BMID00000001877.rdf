@@ -7,44 +7,22 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rho">
-    <dc:title>rho</dc:title>
-    <dcterms:description>rho</dcterms:description>
-    <dcterms:identifier>meta_qual_rho</dcterms:identifier>
-    <rdfs:label>qual_rho</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rnr">
-    <dc:title>rnr</dc:title>
-    <dcterms:description>rnr</dcterms:description>
-    <dcterms:identifier>meta_qual_rnr</dcterms:identifier>
-    <rdfs:label>qual_rnr</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_ppk">
-    <dc:title>ppk</dc:title>
-    <dcterms:description>ppk</dcterms:description>
-    <dcterms:identifier>meta_qual_ppk</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_1">
-    <qual:sign>negative</qual:sign>
-    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
-    <rdfs:label>qual_rne</rdfs:label>
-  </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_2">
     <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
     <dc:title>tr_2</dc:title>
     <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_2"/>
     <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_rhlE2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_hfq">
-    <dc:title>hfq</dc:title>
-    <dcterms:description>hfq</dcterms:description>
-    <dcterms:identifier>meta_qual_hfq</dcterms:identifier>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_ppk">
+    <dc:title>ppk</dc:title>
+    <dcterms:description>ppk</dcterms:description>
+    <dcterms:identifier>meta_qual_ppk</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_eno">
-    <dc:title>eno</dc:title>
-    <dcterms:description>eno</dcterms:description>
-    <dcterms:identifier>meta_qual_eno</dcterms:identifier>
-    <rdfs:label>qual_eno</rdfs:label>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_4">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_4</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_4"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_recQ"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_6">
     <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
@@ -52,20 +30,58 @@
     <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_6"/>
     <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_rnr"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_5">
-    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr_5</dc:title>
-    <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_5"/>
-    <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_rho"/>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_dnaK">
+    <dc:title>dnaK</dc:title>
+    <dcterms:description>dnaK</dcterms:description>
+    <dcterms:identifier>meta_qual_dnaK</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml">
-    <dcterms:identifier>meta_path_rde03018</dcterms:identifier>
-    <dc:title>RNA degradation</dc:title>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_NTP">
+    <dc:title>NTP</dc:title>
+    <dcterms:description>NTP</dcterms:description>
+    <dcterms:identifier>meta_qual_NTP</dcterms:identifier>
   </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_groEL">
-    <dc:title>groEL</dc:title>
-    <dcterms:description>groEL</dcterms:description>
-    <dcterms:identifier>meta_qual_groEL</dcterms:identifier>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_pnp">
+    <dc:title>pnp</dc:title>
+    <dcterms:description>pnp</dcterms:description>
+    <dcterms:identifier>meta_qual_pnp</dcterms:identifier>
+    <rdfs:label>qual_pnp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_6">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>qual_pnp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rhlE2">
+    <dc:title>rhlE2</dc:title>
+    <dcterms:description>rhlE2</dcterms:description>
+    <dcterms:identifier>meta_qual_rhlE2</dcterms:identifier>
+    <rdfs:label>qual_rhlE2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rho">
+    <dc:title>rho</dc:title>
+    <dcterms:description>rho</dcterms:description>
+    <dcterms:identifier>meta_qual_rho</dcterms:identifier>
+    <rdfs:label>qual_rho</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_2">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>qual_rne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>qual_rne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rne">
+    <dc:title>rne</dc:title>
+    <dcterms:description>rne</dcterms:description>
+    <dcterms:identifier>meta_qual_rne</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_hfq">
+    <dc:title>hfq</dc:title>
+    <dcterms:description>hfq</dcterms:description>
+    <dcterms:identifier>meta_qual_hfq</dcterms:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_3">
     <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
@@ -73,10 +89,64 @@
     <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_3"/>
     <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_rnr"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_eno">
+    <dc:title>eno</dc:title>
+    <dcterms:description>eno</dcterms:description>
+    <dcterms:identifier>meta_qual_eno</dcterms:identifier>
+    <rdfs:label>qual_eno</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_recQ">
+    <dc:title>recQ</dc:title>
+    <dcterms:description>recQ</dcterms:description>
+    <dcterms:identifier>meta_qual_recQ</dcterms:identifier>
+    <rdfs:label>qual_recQ</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_eno"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_3">
     <qual:sign>negative</qual:sign>
     <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
     <rdfs:label>qual_rne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rnr">
+    <dc:title>rnr</dc:title>
+    <dcterms:description>rnr</dcterms:description>
+    <dcterms:identifier>meta_qual_rnr</dcterms:identifier>
+    <rdfs:label>qual_rnr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_groEL">
+    <dc:title>groEL</dc:title>
+    <dcterms:description>groEL</dcterms:description>
+    <dcterms:identifier>meta_qual_groEL</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_RD1_0960">
+    <dc:title>RD1_0960</dc:title>
+    <dcterms:description>RD1_0960</dcterms:description>
+    <dcterms:identifier>meta_qual_RD1_0960</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_5">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_5</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_5"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_rho"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_1">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>qual_rne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_4">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>qual_rne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml">
+    <dcterms:identifier>meta_path_rde03018</dcterms:identifier>
+    <dc:title>RNA degradation</dc:title>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_5">
     <qual:sign>negative</qual:sign>
@@ -88,75 +158,5 @@
     <dc:title>tr_1</dc:title>
     <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_1"/>
     <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_pnp"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in">
-    <qual:sign>negative</qual:sign>
-    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
-    <rdfs:label>qual_rne</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_dnaK">
-    <dc:title>dnaK</dc:title>
-    <dcterms:description>dnaK</dcterms:description>
-    <dcterms:identifier>meta_qual_dnaK</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_6">
-    <qual:sign>negative</qual:sign>
-    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
-    <rdfs:label>qual_pnp</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_NTP">
-    <dc:title>NTP</dc:title>
-    <dcterms:description>NTP</dcterms:description>
-    <dcterms:identifier>meta_qual_NTP</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rhlE2">
-    <dc:title>rhlE2</dc:title>
-    <dcterms:description>rhlE2</dcterms:description>
-    <dcterms:identifier>meta_qual_rhlE2</dcterms:identifier>
-    <rdfs:label>qual_rhlE2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_rne">
-    <dc:title>rne</dc:title>
-    <dcterms:description>rne</dcterms:description>
-    <dcterms:identifier>meta_qual_rne</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_RD1_0960">
-    <dc:title>RD1_0960</dc:title>
-    <dcterms:description>RD1_0960</dcterms:description>
-    <dcterms:identifier>meta_qual_RD1_0960</dcterms:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr_4">
-    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr_4</dc:title>
-    <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in_4"/>
-    <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_recQ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_pnp">
-    <dc:title>pnp</dc:title>
-    <dcterms:description>pnp</dcterms:description>
-    <dcterms:identifier>meta_qual_pnp</dcterms:identifier>
-    <rdfs:label>qual_pnp</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#qual_recQ">
-    <dc:title>recQ</dc:title>
-    <dcterms:description>recQ</dcterms:description>
-    <dcterms:identifier>meta_qual_recQ</dcterms:identifier>
-    <rdfs:label>qual_recQ</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_2">
-    <qual:sign>negative</qual:sign>
-    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
-    <rdfs:label>qual_rne</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#tr">
-    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
-    <dc:title>tr</dc:title>
-    <bqbiol:hasSource rdf:resource="http://omex-library.org/BMID000000018771.xml#in"/>
-    <bqbiol:hasSink rdf:resource="http://omex-library.org/BMID000000018771.xml#qual_eno"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://omex-library.org/BMID000000018771.xml#in_4">
-    <qual:sign>negative</qual:sign>
-    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
-    <rdfs:label>qual_rne</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

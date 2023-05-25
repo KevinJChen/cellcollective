@@ -40,6 +40,9 @@ def makeRDFfile(filepath):
     model_uri = "http://omex-library.org/" + str(os.path.basename(filepath.replace(" ", "_")))
     #graph.add((URIRef(model_uri), RDF.type, sbml_ns.Model))
 
+    if model is None:
+        return
+
     # add annotations for the model
     if model.isSetMetaId():
 
@@ -79,19 +82,26 @@ def makeRDFfile(filepath):
 
         # add UniProt ID annotations
         UniProt_IDs = extractUniProt(qs)
+
         for id in UniProt_IDs:
+            if id is None:
+                continue
             uniprot_uri = URIRef(uniprot_ns + id)
             graph.add((species_uri, bqbiol_ns.isVersionOf, uniprot_uri))
 
         # add NCBI annotations
         NCBI_IDs = extractNCBI(qs)
         for id in NCBI_IDs:
+            if id is None:
+                continue
             ncbi_uri = URIRef(ncbi_ns + id)
             graph.add((species_uri, bqbiol_ns.isEncodedBy, ncbi_uri))
 
         # add PubMed annotations
         PubMed = extractPubMed(qs)
         for id in PubMed:
+            if id is None:
+                continue
             pubmed_uri = URIRef(pubmed_ns + id)
             graph.add((species_uri, bqbiol_ns.isDescribedBy, pubmed_uri))
 
@@ -120,12 +130,16 @@ def makeRDFfile(filepath):
 
                 # 0 = positive
                 # 1 = negative
+                # 3 = unknown
 
                 # annotate the sign (positive or negative)
                 if input.getSign() == 0:
                     graph.add((input_uri, qual_ns.sign, Literal('positive')))
-                else:
+                elif input.getSign() == 1:
                     graph.add((input_uri, qual_ns.sign, Literal('negative')))
+                else:
+                    graph.add((input_uri, qual_ns.sign, Literal('unknown')))
+
                 # link transition to input
                 graph.add((transition_uri, bqbiol_ns.hasSource, input_uri))
                 # RDF type

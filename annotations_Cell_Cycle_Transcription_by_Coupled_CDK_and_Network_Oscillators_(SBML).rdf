@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bqbiol="http://www.biopax.org/release/biopax-level3.owl#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_5">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_3">
+    <dc:title>SBF</dc:title>
+    <dcterms:description>SBF</dcterms:description>
+    <dcterms:identifier>_2125e402-df4a-46e7-b943-9c4f83e56d61</dcterms:identifier>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/15210110"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/15210111"/>
+    <rdfs:label>S_3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_6_in_S_4">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_2">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_2</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_2_in_S_3"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_2_in_S_4"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_6">
+    <dc:title>HCM1</dc:title>
+    <dcterms:description>HCM1</dcterms:description>
+    <dcterms:identifier>_2118869a-ea7a-432a-a042-c10d03b9c50c</dcterms:identifier>
+    <bqbiol:isVersionOf rdf:resource="http://www.uniprot.org/uniprot/P25364"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <rdfs:label>S_6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_7">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_7</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_7_in_S_3"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_7_in_S_6"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_3</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_1"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_2"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_4"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_5"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_8">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_4">
+    <dc:title>MBF</dc:title>
+    <dcterms:description>MBF</dcterms:description>
+    <dcterms:identifier>e864fb1c-7615-4d93-b80b-ef86c6dadafe</dcterms:identifier>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/15210110"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/15210111"/>
+    <rdfs:label>S_4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_4">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_4</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_4_in_S_1"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_8">
+    <dc:title>SWI5</dc:title>
+    <dcterms:description>SWI5</dcterms:description>
+    <dcterms:identifier>e22ce403-3625-468b-821a-bf1ebb6e0bd2</dcterms:identifier>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <rdfs:label>S_8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_2">
+    <dc:title>YHP1</dc:title>
+    <dcterms:description>YHP1</dcterms:description>
+    <dcterms:identifier>_7cd63cf5-3c93-4741-8a6c-3995b309232b</dcterms:identifier>
+    <bqbiol:isVersionOf rdf:resource="http://www.uniprot.org/uniprot/Q04116"/>
+    <bqbiol:isEncodedBy rdf:resource="http://www.ncbi.nlm.nih.gov/gene/852062"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/11572776"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/16709784"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/15343339"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12399584"/>
+    <rdfs:label>S_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_7">
+    <dc:title>SFF</dc:title>
+    <dcterms:description>SFF</dcterms:description>
+    <dcterms:identifier>_20cc7042-6524-4397-91fc-9a4c00027e49</dcterms:identifier>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <rdfs:label>S_7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_6">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_6</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_6_in_S_3"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_6_in_S_4"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_7_in_S_3">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_9">
+    <dc:title>ACE2</dc:title>
+    <dcterms:description>ACE2</dcterms:description>
+    <dcterms:identifier>ee692dde-05fd-486e-a97f-8d5e43423685</dcterms:identifier>
+    <bqbiol:isVersionOf rdf:resource="http://www.uniprot.org/uniprot/P21192"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <rdfs:label>S_9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_1">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_7_in_S_6">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_6</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_8_in_S_7">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_4_in_S_1">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_5_in_S_3">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_1</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_2"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_9"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_8"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_5"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_2_in_S_4">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_2_in_S_3">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_4">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_9">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_9">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_9</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_9_in_S_7"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_5">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_1">
+    <dc:title>CLN3</dc:title>
+    <dcterms:description>CLN3</dcterms:description>
+    <dcterms:identifier>_5ec6c44b-3c3f-4914-afc1-87ec18b48288</dcterms:identifier>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/11572776"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/16709784"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12464633"/>
+    <rdfs:label>S_1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_9_in_S_7">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml">
+    <dcterms:identifier>_722f5484-9b1f-4f47-b89c-c7e16ad22cad</dcterms:identifier>
+    <dc:title>Cell Cycle Transcription by Coupled CDK and Network Oscillators</dc:title>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_1_in_S_2">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_5">
+    <dc:title>YOX1</dc:title>
+    <dcterms:description>YOX1</dcterms:description>
+    <dcterms:identifier>_60106a1b-f47b-49c1-b453-4d637ba5cb73</dcterms:identifier>
+    <bqbiol:isVersionOf rdf:resource="http://www.uniprot.org/uniprot/P34161"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/11572776"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/16709784"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/18463633"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/15343339"/>
+    <bqbiol:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12399584"/>
+    <rdfs:label>S_5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_5_in_S_4">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_5">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_5</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_5_in_S_3"/>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_5_in_S_4"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_8">
+    <rdf:type rdf:resource="http://www.sbml.org/sbml-level3/version1/coreTransition"/>
+    <dc:title>tr_S_8</dc:title>
+    <bqbiol:hasSource rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_8_in_S_7"/>
+    <bqbiol:hasSink rdf:resource="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#S_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_6_in_S_3">
+    <qual:sign>positive</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/Cell_Cycle_Transcription_by_Coupled_CDK_and_Network_Oscillators_(SBML).sbml#tr_S_3_in_S_2">
+    <qual:sign>negative</qual:sign>
+    <rdf:type rdf:resource="https://www.biopax.org/release/biopax-level3.owl#PHYSICAL_ENTITY"/>
+    <rdfs:label>S_2</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
